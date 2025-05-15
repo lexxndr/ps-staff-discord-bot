@@ -1,0 +1,4 @@
+git+https://github.com/DisnakeDev/disnake.git@feature/components-v2
+aiofiles
+python-dotenv
+g4f[all]
