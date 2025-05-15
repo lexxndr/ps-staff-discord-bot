@@ -1,11 +1,15 @@
 {
     "Level 0 - Lobby": {
         "sections": {
-            "Overview": "Level 0 (The Lobby) is the \u201czero-ith (0th)\u201d level of Chapter 1 and the very first level of Apeirophobia. The level is a maze full of yellow walls, dark yellow carpet, and a few arrows scratched on the walls that may lead to the exit. In harder difficulties, the arrows might be fake.",
-            "Description": "Level 0 is a large maze composed of a repeating yellow, moist carpet floor, and a mono-yellow wallpaper decorated like the typical Backrooms walls. The ceiling is an averagely tiled ceiling with constantly buzzing fluorescent light sources dotted around the map. Occasionally, these lights may be colored differently in specific areas, occasionally appearing as blue, red, and even green. Scattered throughout the level are many miscellaneous objects, such as power outlets and industrial ladders.",
-            "Objective": "The objective in this level is to simply find the exit. Players will start by wandering around until eventually ending up at a ladder that leads to a vent in a wall. Climbing this ladder and entering the vent will lead to the player escaping the level and entering Level 1."
+            "Level Type": "Maze",
+            "Entities": "- Howler\n- Siren\n - Phantom Smiler",
+            "Badges": "- PRE-ALPHA TESTER\n- BEN\n- The Lost Soul\n- REALITY",
+            "Description": "The Lobby is the first level of Apeirophobia. The walls are a yellow wallpaper with a repeating design, and the floors are a dark yellow carpet. The level also features lights and other random objects scattered throughout the map.",
+            "Tutorial": " In order to beat the level, you must avoid the main entities, Howler and Siren, and find your way to the exit of the level, a vent in the wall. Following the black arrows around the maze may help you to reach the exit.",
+            "Fun Facts": "- The Lobby is one of two levels to have more than one reality core present.\n- The Lobby has the most possible badges per level in the game.\n- Standing on Ben's chair protects from the entities."
         },
-        "image": "https://image.url/image.png"
+        "image1": "https://static.wikia.nocookie.net/apeirophobia/images/3/32/Level0.png/revision/latest/scale-to-width-down/1000?cb=20241029230446",
+        "image2": "https://static.wikia.nocookie.net/apeirophobia/images/a/a3/Level0Exit.png/revision/latest/scale-to-width-down/1000?cb=20241029221420"
     },
     "Level 1 - Poolrooms": {
         "sections": {
