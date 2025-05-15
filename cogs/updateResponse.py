@@ -37,7 +37,7 @@ class updateResponse(commands.Cog):
             )
             if "None." in response.choices[0].message.content: # if this shit doesnt work i will blame the AI
                 print(f"- {message.author.name} - message did not contain a question. ignoring.")
-                await message.reply("ignored", allowed_mentions=disnake.AllowedMentions(everyone=False,users=False,roles=False))
+                await message.reply("ignored", allowed_mentions=disnake.AllowedMentions(everyone=False,users=False,roles=False)) # ONLY FOR TESTING PURPOSES, DELETE ON THE FINAL RELEASE
                 return
             else:
                 await message.reply(response.choices[0].message.content, allowed_mentions=disnake.AllowedMentions(everyone=False,users=False,roles=False))
