@@ -7,7 +7,7 @@ client = AsyncClient(provider=RetryProvider([PollinationsAI, Dynaspark, Liaobots
 
 triggerWords = [
     # upd
-    "upd", "ud", "pd", "uod", "updd", "upd.", "upd-", "u-pd", "up d", "udp", "upz", "upx", "upf",
+    "upd", "updd", "upd.", "upd-", "u-pd", "up d",
     
     # update
     "update", "updated", "updat", "updae", "upate", "udapte", "updtae", "upadte", "upadate", "udate",
