@@ -6,31 +6,40 @@
             {
                 "name": "Is the game still being worked on?",
                 "value": "Yes, the game is actively being worked on."
-            },{
+            },
+            {
                 "name": "When is the next update?",
                 "value": "Nobody knows when the next update will be. Check out <#1021912153592176732> to see progress."
-            },{
+            },
+            {
                 "name": "Why does the server update but not the game?",
                 "value": "The development and moderation teams are separate. We manage different things."
-            },{
+            },
+            {
                 "name": "What should I do while I wait for the update?",
                 "value": "Try speedrunning! Check out <#1105613325875810435> to learn more."
-            },{
+            },
+            {
                 "name": "What happened to the old owner?",
                 "value": "Drama. They're not to be brought up here. Please respect that."
-            },{
+            },
+            {
                 "name": "How do I get image permissions?",
                 "value": "Read <#1023773325006217256> to see which roles have image permissions."
-            },{
+            },
+            {
                 "name": "How do I post in <#1021973016269312032>?",
                 "value": "You need to be **level 10 or higher** to post in suggestions."
-            },{
+            },
+            {
                 "name": "How do I gain levels faster?",
                 "value": "Be active in text channels and use the 'Fighting with Watcher' VC."
-            },{
+            },
+            {
                 "name": "Can someone help me with the game?",
                 "value": "Ask in <#1119009164312727663> or ping the **Game Guides** role."
-            },{
+            },
+            {
                 "name": "Does anyone want to play?",
                 "value": "Visit <#1021909104949743658> to find others to play with."
             }
@@ -43,7 +52,8 @@
             {
                 "name": "test1",
                 "value": "can i get a uhhhhh"
-            },{
+            },
+            {
                 "name": "test2",
                 "value": "hey chat"
             },
@@ -60,7 +70,8 @@
             {
                 "name": "test1",
                 "value": "role info"
-            },{
+            },
+            {
                 "name": "test2",
                 "value": "hey chat2"
             },

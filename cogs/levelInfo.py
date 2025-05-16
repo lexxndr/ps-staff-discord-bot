@@ -1,32 +1,30 @@
-import disnake, aiohttp, aiofiles, dotenv, json, os, disnake.ui as ui
+import disnake, disnake.ui as ui
 from disnake.ext import commands
 from typing import Sequence
 
-env = dotenv.dotenv_values('.env') or os.environ
-
-class levelInfo(commands.Cog):
+class LevelInfo(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.emojiList = {"Badges": "<:Badge:1372922191934656612>", "Description": "<:Description:1372561094014537830>", "Tutorial": "<:Objective:1372561114524553226>", "Entities": "<:Skull:1372670255284883476>", "Fun Facts": "<:Tips:1372670198125035571>", "Level Type": "<:Note:1372670234841845973>", "Simulation Cores": "<:Core:1372922221265293395>"}
+        self.emoji_list = {"Badges": "<:Badge:1372922191934656612>", "Description": "<:Description:1372561094014537830>", "Tutorial": "<:Objective:1372561114524553226>", "Entities": "<:Skull:1372670255284883476>", "Fun Facts": "<:Tips:1372670198125035571>", "Level Type": "<:Note:1372670234841845973>", "Simulation Cores": "<:Core:1372922221265293395>"}
             # available emojis
             # <:Origin:1372670213702811728>; <:Question:1372670182937460766>; <:Exit:1372670158610632905>; <:Gallery:1372670132249296946>; <:Wrench:1372670271957368893>, <:Overview:1372561106219827341>
 
-    @commands.slash_command(name='level', description='Shows information about a specified level.') # init the slash command
-    async def levelinfo(self, interaction: disnake.CommandInteraction, level: str): # I understand it now.
+    @commands.slash_command(name='level', description='Shows information about a specified level.')
+    async def level_info(self, interaction: disnake.CommandInteraction, level: str):
         try:
-            content = self.bot.jsones["newlevel.json"][level]
+            content = self.bot.jsones["new_level.json"][level]
             sections = content['sections']
             images = content['images']
 
-            components: Sequence[ui.UIComponent] = [ # init components v2
+            components: Sequence[ui.UIComponent] = [ 
                 ui.Container(
                     ui.TextDisplay(f'# {level}'),
                     ui.Separator(spacing=disnake.SeparatorSpacingSize.small),
-                    *[ # i have no idea how this works but its perfect and i dont want to touch this EVER
+                    *[
                         item
                         for key, value in sections.items()
                         for item in (
-                            ui.TextDisplay(f"## {self.emojiList.get(key, '')}  {key}\n>>> {value}"),
+                            ui.TextDisplay(f"## {self.emoji_list.get(key, '')}  {key}\n>>> {value}"),
                             ui.Separator(spacing=disnake.SeparatorSpacingSize.large),
                         )
                     ],
@@ -49,17 +47,17 @@ class levelInfo(commands.Cog):
         except KeyError:
             await interaction.response.send_message(f"*Incorrect option picked!*\nPlease, wait for all the options to appear.\n-# If nothing shows up after some time, report this to the developer.", ephemeral=True)
     
-    @levelinfo.autocomplete("level")
+    @level_info.autocomplete("level")
     async def level_autocomplete(self, inter: disnake.ApplicationCommandInteraction, string: str):
-        if not self.bot.jsones["newlevel.json"]:
+        if not self.bot.jsones["new_level.json"]:
             return []
-
+        
         suggestions = [
-            level_name for level_name in self.bot.jsones["newlevel.json"].keys()
+            level_name for level_name in self.bot.jsones["new_level.json"].keys()
             if string.lower() in level_name.lower()
-        ][:25]  # Discord limit for autocomplete options
+        ][:25]
 
         return suggestions
 
 def setup(bot): # setup the cog
-    bot.add_cog(levelInfo(bot))
+    bot.add_cog(LevelInfo(bot))

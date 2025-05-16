@@ -38,7 +38,7 @@ class Breakthrough(commands.Cog):
 
         embed.set_footer(text="Polaroid Studios • Breakthrough Title", icon_url=inter.author.display_avatar.url)
 
-        await inter.response.send_message(embed=embed, ephemeral=True)  # Set to False if you want it public
+        await inter.response.send_message(embed=embed)
 
 def setup(bot):
     bot.add_cog(Breakthrough(bot))
