@@ -1,16 +1,5 @@
 import disnake, json
 from disnake.ext import commands
-"""
-from libs import dropdown
-
-with open("json/serverFAQ.json", "r", encoding="utf-8") as f:
-            faq_data = json.load(f)
-
-options = []
-for key in faq_data:
-    entry = faq_data[key]
-    options.append(disnake.SelectOption(label=entry.get("label", "No label"), description=entry.get("description", "")))
-"""
 
 class FAQ(commands.Cog):
     def __init__(self, bot):
@@ -39,21 +28,12 @@ class FAQ(commands.Cog):
             return await inter.edit_original_message(content="", embed=embed, view=view)
 
         async def callback(interaction: disnake.MessageInteraction):
-            await interaction.response.send_message(content="** **", ephemeral=True, delete_after=0)
+            await interaction.response.defer(ephemeral=True)
             await page(inter, interaction.values[0])
 
 
         dropdown.callback = callback
         return await page(inter, "serverQuestions")
-        """
-        async def dropdown_callback(interaction, selected_value):
-
-            await interaction.response.edit_message(content=f"You selected: {selected_value}", embed=embed, view=view)
-        """
-
-        #view = dropdown.DropDownView(options, "select", callback_func=dropdown_callback)
-        
-        await inter.response.send_message(embed=embed)#, view=view, ephemeral=False)  # Change to False to make it public
         
 
 def setup(bot):
