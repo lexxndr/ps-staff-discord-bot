@@ -35,38 +35,41 @@ class levelInfo(commands.Cog):
 
     @commands.slash_command(name='level', description='Shows information about a specified level.') # init the slash command
     async def levelinfo(self, interaction: disnake.CommandInteraction, level: str): # I understand it now.
-        content = self.levelList[level]
-        sections = content['sections']
-        images = content['images']
+        try:
+            content = self.levelList[level]
+            sections = content['sections']
+            images = content['images']
 
-        components: Sequence[ui.UIComponent] = [ # init components v2
-            ui.Container(
-                ui.TextDisplay(f'# {level}'),
-                ui.Separator(spacing=disnake.SeparatorSpacingSize.small),
-                *[ # i have no idea how this works but its perfect and i dont want to touch this EVER
-                    item
-                    for key, value in sections.items()
-                    for item in (
-                        ui.TextDisplay(f"## {self.emojiList.get(key, '')}  {key}\n**    {value}**"),
-                        ui.Separator(spacing=disnake.SeparatorSpacingSize.small),
-                    )
-                ],
-                ui.TextDisplay('## <:Gallery:1372670132249296946>  Gallery'),
-                ui.MediaGallery(
-                    *[
+            components: Sequence[ui.UIComponent] = [ # init components v2
+                ui.Container(
+                    ui.TextDisplay(f'# {level}'),
+                    ui.Separator(spacing=disnake.SeparatorSpacingSize.small),
+                    *[ # i have no idea how this works but its perfect and i dont want to touch this EVER
                         item
-                        for value in images
+                        for key, value in sections.items()
                         for item in (
-                            disnake.MediaGalleryItem({"media": {"url": value}}),
+                            ui.TextDisplay(f"## {self.emojiList.get(key, '')}  {key}\n**    {value}**"),
+                            ui.Separator(spacing=disnake.SeparatorSpacingSize.small),
                         )
                     ],
+                    ui.TextDisplay('## <:Gallery:1372670132249296946>  Gallery'),
+                    ui.MediaGallery(
+                        *[
+                            item
+                            for value in images
+                            for item in (
+                                disnake.MediaGalleryItem({"media": {"url": value}}),
+                            )
+                        ],
+                    ),
+                    accent_colour=disnake.Colour(0xf0b000),
+                    spoiler=False,
                 ),
-                accent_colour=disnake.Colour(0xf0b000),
-                spoiler=False,
-            ),
-        ]
+            ]
 
-        await interaction.response.send_message(components=components, flags=disnake.MessageFlags(is_components_v2=True))
+            await interaction.response.send_message(components=components, flags=disnake.MessageFlags(is_components_v2=True))
+        except KeyError:
+            await interaction.response.send_message(f"*Incorrect option picked!*\nPlease, wait for all the options to appear.\n-# If nothing shows up after some time, report this to the developer.", ephemeral=True)
     
     @levelinfo.autocomplete("level")
     async def level_autocomplete(self, inter: disnake.ApplicationCommandInteraction, string: str):
