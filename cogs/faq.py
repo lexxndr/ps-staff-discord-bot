@@ -1,5 +1,16 @@
-import disnake
+import disnake, json
 from disnake.ext import commands
+"""
+from libs import dropdown
+
+with open("json/serverFAQ.json", "r", encoding="utf-8") as f:
+            faq_data = json.load(f)
+
+options = []
+for key in faq_data:
+    entry = faq_data[key]
+    options.append(disnake.SelectOption(label=entry.get("label", "No label"), description=entry.get("description", "")))
+"""
 
 class FAQ(commands.Cog):
     def __init__(self, bot):
@@ -7,66 +18,43 @@ class FAQ(commands.Cog):
 
     @commands.slash_command(description="Show the Polaroid Studios FAQ.")
     async def faq(self, inter: disnake.ApplicationCommandInteraction):
-        embed = disnake.Embed(
-            title="📘 Polaroid Studios Frequently Asked Questions",
-            description="Here are answers to some of the most commonly asked questions in the server.",
-            color=disnake.Color.blue()
-        )
+        await inter.response.defer()
 
-        embed.add_field(
-            name="❓ Is the game still being worked on?",
-            value="Yes, the game is actively being worked on.",
-            inline=False
-        )
-        embed.add_field(
-            name="⏳ When is the next update?",
-            value="Nobody knows when the next update will be. Check out <#1021912153592176732> to see progress.",
-            inline=False
-        )
-        embed.add_field(
-            name="🔧 Why does the server update but not the game?",
-            value="The development and moderation teams are separate. We manage different things.",
-            inline=False
-        )
-        embed.add_field(
-            name="🎮 What should I do while I wait for the update?",
-            value="Try speedrunning! Check out <#1105613325875810435> to learn more.",
-            inline=False
-        )
-        embed.add_field(
-            name="🙊 What happened to the old owner?",
-            value="Drama. They're not to be brought up here. Please respect that.",
-            inline=False
-        )
-        embed.add_field(
-            name="🖼️ How do I get image permissions?",
-            value="Read <#1023773325006217256> to see which roles have image permissions.",
-            inline=False
-        )
-        embed.add_field(
-            name="📝 How do I post in <#1021973016269312032>?",
-            value="You need to be **level 10 or higher** to post in suggestions.",
-            inline=False
-        )
-        embed.add_field(
-            name="⚡ How do I gain levels faster?",
-            value="Be active in text channels and use the 'Fighting with Watcher' VC.",
-            inline=False
-        )
-        embed.add_field(
-            name="🆘 Can someone help me with the game?",
-            value="Ask in <#1119009164312727663> or ping the **Game Guides** role.",
-            inline=False
-        )
-        embed.add_field(
-            name="👥 Does anyone want to play?",
-            value="Visit <#1021909104949743658> to find others to play with.",
-            inline=False
-        )
+        faq_json = self.bot.jsones["faq.json"]
 
-        embed.set_footer(text="Polaroid Studios • Community Support", icon_url=inter.author.display_avatar.url)
+        view = disnake.ui.View()
+        dropdown = disnake.ui.StringSelect(options=[disnake.SelectOption(label=value["label"], description=value["description"], value=key) for key, value in faq_json.items()])
+        view.add_item(dropdown)
 
-        await inter.response.send_message(embed=embed, ephemeral=True)  # Change to False to make it public
+        async def page(inter: disnake.MessageInteraction, page_name: str):
+            embed = disnake.Embed(
+                title=faq_json[page_name]["label"], # faq_json[page_name]["label"]
+                description=faq_json[page_name]["description"], # faq_json[page_name]["description"]
+                color=disnake.Color.blue()
+            )
+
+            [embed.add_field(name=question["name"], value=question["value"], inline=False) for question in faq_json[page_name]["embed"]]
+            embed.set_footer(text="Polaroid Studios • Community Support", icon_url=inter.author.display_avatar.url)
+
+            return await inter.edit_original_message(content="", embed=embed, view=view)
+
+        async def callback(interaction: disnake.MessageInteraction):
+            await interaction.response.send_message(content="** **", ephemeral=True, delete_after=0)
+            await page(inter, interaction.values[0])
+
+
+        dropdown.callback = callback
+        return await page(inter, "serverQuestions")
+        """
+        async def dropdown_callback(interaction, selected_value):
+
+            await interaction.response.edit_message(content=f"You selected: {selected_value}", embed=embed, view=view)
+        """
+
+        #view = dropdown.DropDownView(options, "select", callback_func=dropdown_callback)
+        
+        await inter.response.send_message(embed=embed)#, view=view, ephemeral=False)  # Change to False to make it public
+        
 
 def setup(bot):
     bot.add_cog(FAQ(bot))

@@ -7,36 +7,14 @@ env = dotenv.dotenv_values('.env') or os.environ
 class levelInfo(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.levelList = {}
         self.emojiList = {"Badges": "<:Badge:1372922191934656612>", "Description": "<:Description:1372561094014537830>", "Tutorial": "<:Objective:1372561114524553226>", "Entities": "<:Skull:1372670255284883476>", "Fun Facts": "<:Tips:1372670198125035571>", "Level Type": "<:Note:1372670234841845973>", "Simulation Cores": "<:Core:1372922221265293395>"}
             # available emojis
             # <:Origin:1372670213702811728>; <:Question:1372670182937460766>; <:Exit:1372670158610632905>; <:Gallery:1372670132249296946>; <:Wrench:1372670271957368893>, <:Overview:1372561106219827341>
-    @commands.Cog.listener()
-    async def on_ready(self):
-        async with aiohttp.ClientSession() as session:
-            request = await session.get(env.get("guthib"))
-
-            if request.status == 200:
-                response = await request.text()
-                jsoned = json.loads(response)
-                self.levelList = jsoned
-
-                async with aiofiles.open("./json/newlevel.json", "w", encoding="utf8") as file:
-                    dumped = json.dumps(jsoned)
-                    await file.write(dumped)
-                    print("sawed off")
-
-                return
-
-            print("foiled to get list from guthib, using local file") # for some reason this is working every time, even though it's not supposed to
-            async with aiofiles.open("./json/newlevel.json", "r", encoding="utf8") as file:
-                content = await file.read()
-                self.levelList = json.loads(content)
 
     @commands.slash_command(name='level', description='Shows information about a specified level.') # init the slash command
     async def levelinfo(self, interaction: disnake.CommandInteraction, level: str): # I understand it now.
         try:
-            content = self.levelList[level]
+            content = self.bot.jsones["newlevel.json"][level]
             sections = content['sections']
             images = content['images']
 
