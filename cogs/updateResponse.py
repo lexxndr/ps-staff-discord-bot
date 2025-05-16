@@ -11,7 +11,8 @@ triggerWords = [
     
     # update
     "update", "updated", "updat", "updae", "upate", "udapte", "updtae", "upadte", "upadate", "udate",
-    "updatw", "updwte", "upzate", "upxate", "uodate", "upaet", "updste", "updaet", "updatr",
+    "updatw", "updwte", "upzate", "upxate", "uodate", "upaet", "updste", "updaet", "updatr", "updaye",
+    "ypdate", "ipdate", "pdate", "updare", "updt", "updte"
     
     # updating
     "updating", "updatin", "updatng", "updting", "udating", "updaing", "upadting", "updeting",
