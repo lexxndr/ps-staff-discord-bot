@@ -8,9 +8,9 @@ class levelInfo(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.levelList = {}
-        self.emojiList = {"Badges": "<:Overview:1372561106219827341>", "Description": "<:Description:1372561094014537830>", "Tutorial": "<:Objective:1372561114524553226>", "Entities": "<:Skull:1372670255284883476>", "Fun Facts": "<:Tips:1372670198125035571>", "Level Type": "<:Note:1372670234841845973>"}
+        self.emojiList = {"Badges": "<:Badge:1372922191934656612>", "Description": "<:Description:1372561094014537830>", "Tutorial": "<:Objective:1372561114524553226>", "Entities": "<:Skull:1372670255284883476>", "Fun Facts": "<:Tips:1372670198125035571>", "Level Type": "<:Note:1372670234841845973>", "Simulation Cores": "<:Core:1372922221265293395>"}
             # available emojis
-            # <:Origin:1372670213702811728>; <:Question:1372670182937460766>; <:Exit:1372670158610632905>; <:Gallery:1372670132249296946>; <:Wrench:1372670271957368893>
+            # <:Origin:1372670213702811728>; <:Question:1372670182937460766>; <:Exit:1372670158610632905>; <:Gallery:1372670132249296946>; <:Wrench:1372670271957368893>, <:Overview:1372561106219827341>
     @commands.Cog.listener()
     async def on_ready(self):
         async with aiohttp.ClientSession() as session:
@@ -21,15 +21,15 @@ class levelInfo(commands.Cog):
                 jsoned = json.loads(response)
                 self.levelList = jsoned
 
-                async with aiofiles.open("./json/newlevel.json", "w") as file:
+                async with aiofiles.open("./json/newlevel.json", "w", encoding="utf8") as file:
                     dumped = json.dumps(jsoned)
                     await file.write(dumped)
                     print("sawed off")
 
                 return
 
-            print("foiled to get list from guthib, using local file")
-            async with aiofiles.open("./json/newlevel.json", "r") as file:
+            print("foiled to get list from guthib, using local file") # for some reason this is working every time, even though it's not supposed to
+            async with aiofiles.open("./json/newlevel.json", "r", encoding="utf8") as file:
                 content = await file.read()
                 self.levelList = json.loads(content)
 
@@ -37,12 +37,12 @@ class levelInfo(commands.Cog):
     async def levelinfo(self, interaction: disnake.CommandInteraction, level: str): # I understand it now.
         content = self.levelList[level]
         sections = content['sections']
-        image1 = content['image1']
-        image2 = content['image2']
+        images = content['images']
 
         components: Sequence[ui.UIComponent] = [ # init components v2
             ui.Container(
                 ui.TextDisplay(f'# {level}'),
+                ui.Separator(spacing=disnake.SeparatorSpacingSize.small),
                 *[ # i have no idea how this works but its perfect and i dont want to touch this EVER
                     item
                     for key, value in sections.items()
@@ -51,18 +51,16 @@ class levelInfo(commands.Cog):
                         ui.Separator(spacing=disnake.SeparatorSpacingSize.small),
                     )
                 ],
-                ui.MediaGallery( # add more mediagalleryitem objects if need more images but it may break everything
-                    disnake.MediaGalleryItem(
-                        {
-                            "media": {"url": image1},
-                        },
-                    ),
-                    disnake.MediaGalleryItem(
-                        {
-                            "media": {"url": image2},
-                        },
-                    )
-                ), # for now only 2 screenshots are being used so dont change this
+                ui.TextDisplay('## <:Gallery:1372670132249296946>  Gallery'),
+                ui.MediaGallery(
+                    *[
+                        item
+                        for value in images
+                        for item in (
+                            disnake.MediaGalleryItem({"media": {"url": value}}),
+                        )
+                    ],
+                ),
                 accent_colour=disnake.Colour(0xf0b000),
                 spoiler=False,
             ),

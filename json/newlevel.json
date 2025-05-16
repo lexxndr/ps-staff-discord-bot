@@ -4,203 +4,257 @@
             "Level Type": "Maze",
             "Entities": "- Howler\n- Siren\n - Phantom Smiler",
             "Badges": "- PRE-ALPHA TESTER\n- BEN\n- The Lost Soul\n- REALITY",
-            "Description": "The Lobby is the first level of Apeirophobia. The walls are a yellow wallpaper with a repeating design, and the floors are a dark yellow carpet. The level also features lights and other random objects scattered throughout the map.",
+            "Simulation Cores": "- 2",
+            "Description": "The Lobby is the first level of Apeirophobia. The walls are a yellow wallpaper with a repeating design, and the floor is a dark yellow carpet. The level also features lights and other random objects scattered throughout the map.",
             "Tutorial": " In order to beat the level, you must avoid the main entities, Howler and Siren, and find your way to the exit of the level, a vent in the wall. Following the black arrows around the maze may help you to reach the exit.",
             "Fun Facts": "- The Lobby is one of two levels to have more than one reality core present.\n- The Lobby has the most possible badges per level in the game.\n- Standing on Ben's chair protects from the entities."
         },
-        "image1": "https://static.wikia.nocookie.net/apeirophobia/images/3/32/Level0.png/revision/latest/scale-to-width-down/1000?cb=20241029230446",
-        "image2": "https://static.wikia.nocookie.net/apeirophobia/images/a/a3/Level0Exit.png/revision/latest/scale-to-width-down/1000?cb=20241029221420"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 1 - Poolrooms": {
         "sections": {
-            "Overview": "Level 1 (The Poolrooms) is the first level of Chapter 1, and the 2nd level of Apeirophobia. The level is a sort of maze, but with water in some random spots. You spawn inside a hallway with a lot of pipes on the left and right sides of you, horizontally. After walking out of that oddly long corridor, you can actually start making progress in this level.",
-            "Description": "The start of this Level is a long tunnel, in this tunnel you may find wires, pipes, lights and more.\nThere is also water under the platform you're standing on, but this is just decoration as you cannot get to the water, there is no mechanics related to the platform breaking.\nWhen you make your way down the tunnel, you will find yourself in a large area consisting of the same pattern and colors for the Walls, the Floor and the Ceiling, that is: White & Gray Tiles.\nAll of the Lights are glowing blue.\nThe exit is a gate blocking you from an area of this level, there is also a light next to it that is red by default that means that you haven't turned all of the valves yet, but if you did turn all of the valves, this light is going to turn green and the gate will open revealing this formerly blocked off area, this area is quite small but has a long hole in the middle that leads you to a kind of sewer once you go down it, this sewer uses the same pattern and colors as the previous walls, floor and ceiling and at the end of this sewer you will find a giant pit.",
-            "Objective": "Your goal in this entire level is to find 5 different valves on pipes throughout the level (exclusive to the second part), once you turn all of the valves throughout the level, a sudden noise will play, coming from the exit, letting the player(s) know it is now open."
+            "Level Type": "Puzzle",
+            "Entities": "- Starfish\n- Phantom Smiler",
+            "Badges": "- REALITY",
+            "Simulation Cores": "- 1",
+            "Description": "The Poolrooms is the second level of Apeirophobia. The walls and floor are light grey tiles. The level also features lights, benches, and valves around throughout the map.",
+            "Tutorial": " In order to beat the level, you must avoid the Starfish, find and turn all five valves in the map, and go through the exit at the end of the tunnel.",
+            "Fun Facts": "- The Poolrooms used to have six valves."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 2 - Windows": {
         "sections": {
-            "Overview": "Level 2 (The Windows) is the 2nd level of Chapter 1, and the 3rd level of Apeirophobia. Players start in a small room with multiple other rooms attached to it, changing in color depending on the room you decide to enter. There is an upstairs, which is a long hallway which leads you to the end of the level.",
-            "Description": "In Level 2, where you spawn has the same dreaded wallpaper on the walls as Level 0. To the left you will find a bathroom, in the bathroom there is a toilet and shower curtains. You cannot see past the curtains, as they're impossible to move. Going back to the start and to the right, you will notice there is a kitchen. It contains a fridge, some counters, and a shelf. Going back to the start and going up the stairs you will be in a completely different part of the map, the walls have changed from Yellow to White, the floor from Dark Yellow to Dark Brown and the ceiling from Yellow Tiles to White.",
-            "Objective": "Your objective in this level is to follow the only path you can take, at the end there will be a giant pit, jumping in it will end your journey on this level."
+            "Level Type": "Exploration",
+            "Description": "The Windows is the third level of Apeirophobia. In the first section, the walls are a yellow wallpaper with a repeating design, and the floor is a dark yellow carpet. In the second section, the walls are white concrete, and the floors are wooden panels.",
+            "Tutorial": " In order to beat the level, you must jump into the exit.",
+            "Fun Facts": "- The Windows used to have a reality core."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 3 - Abandoned Office": {
         "sections": {
-            "Overview": "Level 3 (Abandoned Office) is the 4th level in Chapter 1, and the 5th overall level in Apeirophobia. It appears as a long hallway with white walls and a floor made out of wood at first. There are a lot of turned off lights on the ceiling and a ton of locked metal drawers which cannot be opened around the walls, resembling the ones you would see in a real life office. ",
-            "Description": "In Level 3, you appear to be standing on a brown hardwood floor, with white walls surrounding you. An exit door can be seen further in the distance, with an illuminated sign confirming that it's the exit, and a note on the wall. Going forward down the hallway will reveal a massive gate blocking off a part of the level which can be opened soon. There is another area which has a metallic floor, with multiple pillars, one of them holding up another note, and a couple of other rooms to explore. You can explore the rooms which don't differentiate much from the main one you see, but they do contain more cabinets and lockers than the main room.\nAfter managing to open the gate, you can proceed to the next part of Level 3, being presented as a huge room with most of the things being metallic. Around the walls, there are a lot of rooms, which might explain why some walls at the start have such an odd shape. There are two sides. On the right side, you will be greeted by different rooms with buttons inside of them. The same goes for the left side. However, on the left side, next to the entrance, you will find a bathroom. The majority of the rooms will have a button inside. \nAfter unlocking and entering the exit door, you'll be taken to a large flight of stairs, and you'll see another door a little further away from where you were taken. When you arrive at the end of the staircase, there will be yet another door at the end of the staircase. This one is the actual exit door, which takes you to Level 4.",
-            "Objective": "In Level 3, your objective is to find all of the keys in the first part of the level which can be used to unlock the locks on the gate to open the said gate. The aforementioned gate leads you to the second part of the level which requires you to press all of the buttons hidden around in that area. After that is done, you will have to go through the exit door and walk down the vast flight of stairs. After that is done, there will be another door you have to go through, which finally leads you to Level 4."
+            "Level Type": "Puzzle",
+            "Entities": "- Hound",
+            "Badges": "- REALITY",
+            "Simulation Cores": "- 2",
+            "Description": "Abandoned Office is the fourth level of Apeirophobia. In the first section, the walls are grey concrete, and the floors are either wooden panels or grey carpet. In the second section, the walls are grey concrete, and the floors are either grey carpet or white marble.",
+            "Tutorial": " In order to beat the level, you must avoid the Hound, find and use all three keys, activate all eight buttons in the second half of the level, and go through the exit from the start of the map.",
+            "Fun Facts": "- Abandoned Office is one of two levels to have more than one reality core present.\n- Abandoned Office is currently the fastest level in the game."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 4 - The Sewers": {
         "sections": {
-            "Overview": "Level 4 (The Sewers) is the 4th level in Chapter 1, and the 5th overall level in Apeirophobia. ",
-            "Description": "",
-            "Objective": ""
+            "Level Type": "Exploration",
+            "Badges": "- REALITY",
+            "Simulation Cores": "- 1",
+            "Description": "The Sewers is the fifth level of Apeirophobia. The walls and floor are mostly light grey tiles, but the second section includes glass floors. There are also several bodies of water throughout the map. The second half of the level also features multi-colored pipes.",
+            "Tutorial": " In order to beat the level, you must find the exit.",
+            "Fun Facts": "- The Sewers is the only level in the game that has been completely remade.\n- Due to a leftover asset, the simulation core in The Sewers will slowly drift into the center of the spawn until it becomes impossible to get (though it would take over an hour to reach such a state)."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]        
     },
     "Level 5 - Cave System": {
         "sections": {
-            "Overview": "Level 5 (Cave System) is the 6th level in Apeirophobia, being a cave filled with spikes. Although they look dangerous and look like they'll kill you as soon as you collide with them, they don't. They're completely safe. You spawn in front of a crowd of spikes, with a few lights shining upon a note. ",
-            "Description": "This level is a gray cave filled with stalagmites and stalactites. Yellow lights can be found around the area, mostly illuminated, however, some can be not illuminated, being completely useless. There is a random body of water inside of the cave, which has a mint-colored tint. There is also a massive purple portal which appears to have presumably electricity radiating off of it. ",
-            "Objective": "To escape the Cave System, you have to travel through all of the spikes to eventually find the exit. Nothing too fancy, no puzzles, just try not to die. That's it. Once you are near the exit, you will hear strange noises coming from the purple, glowing portal. Follow these noises and you will find the aforementioned portal, it is recommended not to go through the small tunnel at the left of the portal and to just simply go more to the right and go throughout the larger hole. Entering the portal will lead to Level 6."
+            "Level Type": "Exploration",
+            "Entities": "- Skinwalker",
+            "Badges": "- REALITY\n- DOPPELGANGER",
+            "Simulation Cores": "- 1",
+            "Description": "Cave System is the sixth level of Apeirophobia. The entire level is a cave that features stalactites, stalagmites, and lights around the map.",
+            "Tutorial": " In order to beat the level, you must avoid the Skinwalker and locate the exit. The entity will follow the player around, make fake whistling noises, and follow the sound of player whistles.",
+            "Fun Facts": "- In the old version of the level, sticking to the right wall would lead you to the exit."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 6 - !!!!!!!!!!": {
         "sections": {
-            "Overview": "Level 6 (the seventh level) is a very long hospital hallway, in which can be found bright red lights and alarm sounds blasting through your ears the whole time. The hallway is completely stuffed with obstacles which you'll have to maneuver around in order to escape.",
-            "Description": "This level is a long hospital hallway which has a dark gray tiled ceiling, white concrete walls (previously gray), dark gray floor, red lights, and repeating doors on the left and right sides.\nThere are repeating obstacles throughout the level: sometimes you'll have to slide through, sometimes you'll have to crouch through, sometimes you'll have to go through open doors to get to the exit. ",
-            "Objective": "Your main objective in this entire level is to get through the obstacles. Run as fast as you can to avoid getting caught by the Titan Smiler. You will have to keep dashing around these obstacles over and over while running, while also having to walk for a bit from time to time in order to regenerate some of your stamina back. You have to repeat this process until you reach the exit. The exit is a glowing pink door and going through it will finish your marathon and send you to the next level."
+            "Level Type": "Exploration",
+            "Entities": "- Titan Smiler",
+            "Description": "!!!!!!!!!!, also known as Run For Your Life, is the seventh level of Apeirophobia. The walls are a grey-ish color, and the floor has brown tiles. The level also contains a variety of objects that provide a challenge to the level while navigating to the exit.",
+            "Tutorial": " In order to beat the level, you must make it to the end of the level before the Titan Smiler catches up to you.",
+            "Fun Facts": "- In a minor update, the level was nerfed and removed a big portion of the original level."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
-    "Level 7 - The End?": {
+    "Level 7 - The End is Near": {
         "sections": {
-            "Overview": "Level 7 (the eighth level) appears to be a library with a sign saying \"THE END is NEaR\", attempting to give you the false impression that you will escape the backrooms soon. ",
-            "Description": "",
-            "Objective": ""
+            "Level Type": "Puzzle",
+            "Description": "The End is Near is the eighth level of Apeirophobia. The walls are a light yellow concrete, and floors are several variations of carpet. The level also features shelves which contain either the orbs to the first puzzle or books, one of which will solve the second puzzle.",
+            "Tutorial": " In order to beat the level, you must solve all of the puzzles and make it to the exit. The first puzzle requires you to solve the code given to you on the PC with six colored orbs; the second puzzle requires you to input codes given to you in the red book on the shelf; lastly, the third puzzle, the PC, requires you to input the letter “y” into the PC.",
+            "Fun Facts": "- In a minor update, the level was nerfed and removed a big portion of the first set of vents.\n- The second update of the game was named after Level 7."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 8 - Lights Out": {
         "sections": {
-            "Overview": "Level 8 (the ninth level) takes the form of maze with light gray walls, dark gray floor and a white grid ceiling, more described below.",
-            "Description": "",
-            "Objective": "Your objective in this level is to get to the far left of spawn, that will lead you to the Cafeteria and once you're in there it is recommended to hop in a locker on the left of the entrance, the aggressive entity will camp for a bit but after a while it will leave and enter the first part, once that happens it is recommended to just run to the exit of the second part, which is at the far right of the entrance, once you're at the exit, just keep on going, after running for a while you will notice a green light, this means you are close, just keep on going after the light, and you will find yourself looking a red light, go in the next room and you will find a vent going up, going through the vent will end your journey."
+            "Level Type": "Exploration",
+            "Entities": "- Skinstealer",
+            "Description": "Lights Out is the ninth level of Apeirophobia. The walls are light grey concrete, and the floor is grey concrete. In the middle of the map, a long section of the level connects the first and last section and features wooden tiled floors and scattered chairs.",
+            "Tutorial": " In order to beat the level, you must avoid the Skinstealer and find the exit."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 9 - Sublimity": {
         "sections": {
-            "Overview": "Level 9 (the tenth level) is another level placed inside of a pool. It is a very bland area, being just blue mosaic tiles on the walls. ",
-            "Description": "Level 9 in general has blue tiled walls, a blue tiled floor and a blue tiled ceiling, with also some white lights throughout the level. You start in an area that contains a huge pool with sidewalks around it, going further reveals the same choices of patterns and colors for the rest of the level, you can even find hallways that have pools in the middle and walls with holes, along with some rooms that sometimes contain a different colored light, pools and more, as an example: one of them contain a green light that is hanging from the ceiling, almost about to fall off the ceiling, near the exit is a big pool with a ladder attached to the pool's borders, there is also arrows around the pool indicating that you have to jump in it and there is also an orange light right above it.",
-            "Objective": ""
+            "Level Type": "Exploration",
+            "Badges": "- REALITY",
+            "Simulation Cores": "- 1",
+            "Description": "Sublimity is the tenth level of Apeirophobia. The walls and floor are dark blue tiles, and the level has several pools throughout the map.",
+            "Tutorial": " In order to beat the level, you must jump into the exit.",
+            "Fun Facts": "- The player used to spawn in the big pool, causing players with a bad load time to drown.\n- The hitbox of the old exit is still present in the map."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 10 - The Abyss": {
         "sections": {
-            "Overview": "Level 10 is the 11th level in Chapter 1 in Apeirophobia, taking the form of a huge parking lot containing keys that are required to unlock the doors on each corner of the level. However this level is pure luck, the first door you unlock could be the exit or the last door you unlock could, you'll never know off the bat though.",
-            "Description": "",
-            "Objective": "Your objective in this level is to find keys that are on some lockers, and then unlock a door on a corner of the map, if you get the right door then you will be transported to Level 11."
+            "Level Type": "Puzzle",
+            "Entities": "- Titan Smiler\n- Phantom Smiler",
+            "Description": "The Abyss is the eleventh level of Apeirophobia. The walls are invisible, and the floor is dark grey concrete. The map is supposed to be a huge parking lot, and features four boxes with exits.",
+            "Tutorial": " In order to beat the level, you must avoid the Titan Smiler, and locate the keys on the lockers of the map. Using the keys, you must find the correct door in the corners of the map, giving you a one in four chance of beating the level.",
+            "Fun Facts": "- The Abyss used to have two entities, but this was lowered to one after the ability to enter lockers was removed from the level."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 11 - The Warehouse": {
         "sections": {
-            "Overview": "Level 11 (the twelfth level) is, as its name suggests, a warehouse. It consists of very tall light-gray walls with a variety of windows. You can notice gigantic racks with crates on them and planks that connect them through the window, along with paths that seem torn off and a variety of other walls.",
-            "Description": "When you spawn in, you'll notice the gigantic size of the room. Believe it or not, this is just the starting area. Behind you is a gate that you'll have to unlock in order to proceed further into the level. Looking around further, you will notice tons of paintings on the walls, specific rooms with metal racks and even wooden crates laid around. You can also often find random pieces of paper laying around on the floor. After you successfully unlock the gate mentioned earlier, you can proceed to the formerly locked part of the level. Here, you will have to navigate your way through the gigantic metal racks with crates on them. Do note that falling off of them will result in your death. You can also notice the racks are often connected by wooden planks, each varying in size, shape and length. You can often notice strange placements of these planks, some being placed in such a way that they form shapes or symbols. After successfully navigating through the gigantic metal racks, you should find yourself on a path that leads to the next area. This area has a shattered floor, white walls and a few lights here and there brightening your way. Finally, after you complete your objective in this area, you can head onto a path similar to the one mentioned earlier and escape.",
-            "Objective": "In Level 11, you have multiple objectives depending on the area you're in. In the spawning area, you have to figure out the code to obtain a crowbar, unlock the door that formerly sealed a desk with a computer on it and then type the letter \"y\" in the computer. Afterwards, the gate in the spawn area will open. After heading through the gate and right to the next area, you will have to parkour your way through all of the huge racks. Next up, head to the area that follows, parkour your way once again, obtain a key, unlock a door, press the button next to the exit and that's that."
+            "Level Type": "Exploration",
+            "Description": "The Warehouse is the twelfth level of Apeirophobia. The walls are white concrete, and the floor is wooden panels. The level also features two parkour sections in the level.",
+            "Tutorial": " In order to beat the level, you must solve the color code and make your way through the parkour sections, finding keys along the way, until you eventually get to the exit.",
+            "Fun Facts": "- In a minor update, the parkour of both sections was severely nerfed due to players struggling to pass the level."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 12 - Creative Minds": {
         "sections": {
-            "Overview": "Level 12 (the thirteenth level) starts you off in what looks like it might be an asylum. being covered in white. There are 2 doors you can enter, one leads you to the exit, which is closed. Or the other leads you to the main part of the map. ",
-            "Description": "Level 12 is a level which has a lot to do with white, bland hallways, with no content whatsoever, making it heavily resemble an asylum. There is a rack of painting frames as soon as you walk out of the starting door, which indicate that you need to put something in them. In the room with the line of frames, there are two doors; one leads you to the majority of the level, and the other leads you to the exit. Many objects can be found littered around the rooms, such as pianos with rotten wood, office chairs with abnormal sizes, and so on and so forth.",
-            "Objective": "Your goal in this level is to find the paintings hidden around the asylum, and put the aforementioned paintings onto the painting rack in the correct order. You'll know if one of the paintings are in the right spot as it'll make an odd sound and will make the room progressively more red until it is crimson red. When all three of the paintings are put onto the rack, a massive garage door can be heard opening from afar, locating and going through the said garage door will take you to Level 13."
+            "Level Type": "Puzzle",
+            "Description": "Creative Minds is the thirteenth level of Apeirophobia. The walls and floor are white paper.",
+            "Tutorial": " In order to beat the level, you must find and place all three paintings and make your way to the exit."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 13 - The Funrooms": {
         "sections": {
-            "Overview": "Level 13 (the fourteenth level) is presented as a big, colorful building. It has multiple partying areas with many balloons and decorative items, such as tables, party hats and chairs. You will often find the text \"Happy Birthday\" written around the level in very cartoonish letters, each varying in color and size.",
-            "Description": "Level 13 is a very big level with many different sections containing very colorful walls filled with party decorations and cartoonish drawings. The start consists of two green pillars, red brick floor, colorful walls and yellow tile ceiling. Atop one of the walls, the words \"Happy Birthday\" are written, a colorful fence with balloons on it between the two pillars. Heading onwards you'll come across a reception desk with a computer on it. Heading to the room on the right, you will come across a very big playground containing various Star Buttons, the room on the left of the reception is a hallway leading to various rooms with differences in light, decorations, and layout. In the back of the theater, the backstage section, you will come across a black and very dark maze. This maze connects to the other maze of the level where you can find a partypooper plushie. This maze mentioned is yellow rather than black, slightly aiming towards the color of white. As you wander through the level, you will notice that it has a variety of colors and some walls often overlap each other.",
-            "Objective": "In this level, your objective is simple. In order to escape the level you must locate five star buttons in the playground and afterwards collect three Partypooper Plushies, which can spawn in certain areas of the level, head to the theater and go inside the portal-looking exit."
+            "Level Type": "Maze",
+            "Entities": "- Partygoer",
+            "Description": "The Funrooms is the fourteenth level of Apeirophobia. The walls are a yellowish concrete, and the floor is a silly carpet. The level also features a playground, tables, and chairs.",
+            "Tutorial": " In order to beat the level, you must avoid the Partygoer in the second half of the level. In the first section, activate all five stars to open the gate. In the second section, find all three plushes in the maze and find the exit."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 14 - Electrical Station": {
         "sections": {
-            "Overview": "Level 14 (the fifteenth level) is gigantic, a fact which ranks it as one of the largest Levels in the game, and it is a complete headache to navigate. The Level starts inside a hallway. Walking forward and turning left will present you with another hallway, which itself divides into a few other hallways.",
-            "Description": "",
-            "Objective": "There is a locked electric door at the end of the first hallway, which has a gray electric box on the wall with black screws on each corner of the box, this box is on the right of the door and you will require a Screwdriver to remove the screws on each corner of the box, and then once you have opened the box, it will reveal 10 different colored wires which will have you need Bolt Cutters to be able to cut the right wire, cutting a wrong wire will trigger the alarm so if that happens just start cutting all of the wires, once you did cut the right wire the alarm will turn off and the electric door will open revealing a room with a turned on Computer, on this Computer you will be able to insert \"y\" and open the exit."
+            "Level Type": "Exploration",
+            "Entities": "- Stalker",
+            "Description": "Electrical Station is the fifteenth level of Apeirophobia. The walls are white tiles, and the floor is grey tiles. The level has many rooms that have a variety of objects inside of them.",
+            "Tutorial": " In order to beat the level, you must avoid the Stalker. Additionally, you must locate the screwdriver and wire cutters to use them on the door at the spawn, and find the exit. If you aggro the Stalker once, the alarms will sound off, and aggroing him a second time before the alarms are turned off will kill you. To turn off the alarms, go into the control room near the spawn."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 15 - The Ocean of the Final Frontier": {
         "sections": {
-            "Overview": "Level 15 (the sixteenth level) is a large body of water with a few mountains nearby the shore. The shore seems to be quite rocky, too. You are on an orange lifeboat, with an engine attached to the back of the said lifeboat.",
-            "Description": "Level 15 spawns you in the middle of nowhere on a vast expanse of water, the only thing stopping you from sinking into the watery abyss is the orange lifeboat you spawn in. The aforementioned lifeboat has gray seats, and a dark gray engine attached to the boat. Surrounding the vast ocean are luscious mountains which loom over the rocky shore. Clouds often appear in the dark-blue sky.",
-            "Objective": "Your objective in this level is to make sure your lifeboat is 100% clear of any issues. A few things can slow you down or completely halt the lifeboat movement. A hole in your lifeboat can let a stream of water in, slowing the lifeboat down by a tad. This can be fixed by simply patching the holes up. However, if your engine suddenly breaks down, your lifeboat is completely stuck until the engine is fixed. Once your boat is completely functional if you maintain that, you will eventually see the shore. Floating close enough to the shore will eventually transport you to Level 16."
+            "Level Type": "Exploration",
+            "Entities": "- Kameloha",
+            "Badges": "- Daymare",
+            "Description": "The Ocean of the Final Frontier is the sixteenth level of Apeirophobia. It is a big lake.",
+            "Tutorial": " In order to beat the level, you must repair the boat as you drive away from the entity.",
+            "Fun Facts": "- The Ocean of the Final Frontier is currently the longest level in the game."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 16 - Crumbling Memory": {
         "sections": {
-            "Overview": "Level 16 (the seventeenth level) seems to mimic the appearance of Level 0, but covered with an unknown black substance. Some remains of Level 0 can still be seen, but most of the remains have crumbled, hence its name, Crumbling Memory. When you spawn in, you'll notice walls covered in the strange black substance mentioned above and some arrows. Turn your flashlight on (makes it much easier) and get ready to start making some progress, because this level is not going to be easy.",
-            "Description": "",
-            "Objective": "Your objective is to gather three items: the gasoline, the matches and the bear trap. Once you spawn in, if you pay attention, you will notice some arrows pointing towards a hallway. Following these arrows will lead to the items required to complete the level. Every time an item is collected, the arrows will change, pointing to the next item."
+            "Level Type": "Puzzle",
+            "Entities": "- Deformed Howler",
+            "Badges": "- Got you!",
+            "Description": "Crumbling Memory is the seventeenth level of Apeirophobia. It is a corrupted version of The Lobby, and thus has the exact same layout.",
+            "Tutorial": " In order to beat the level, you must avoid the Deformed Howler. Additionally, find the gas can, matches, and bear trap. Afterwards, you must trap the entity at the spawn of the map. Every time you collect a new item (and place the trap at spawn), the entity will spawn close to you."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 17 - Left Scarred": {
         "sections": {
-            "Overview": "Level 17 (Left Scarred) is the first level of Chapter 2 (Escape from Reality) and the 18th level in Apeirophobia. It is an abandoned apartment complex located in the proximity of a forest.",
-            "Description": "Level 17 takes the form of a building located somewhere in the woods. The level appears to be replicating an abandoned apartment complex, with accompanying furniture tilted over. The entrance of the building contains a reception desk, which appears to be devoid of any equipment of sorts. The rest of the map also seems to be missing many everyday items, as well as containing multiple disturbing paintings. The exterior, as seen through the windows scattered through the level, takes the form of a thick and dense forest, with only a few street lights illuminating the course through the woods to the building.",
-            "Objective": "First, you will need to pick up a key from the box of keys in the starter room. Once a key is acquired, get to the area next to the storage room safely. There, you should be able to use a chisel to carve your key using a picture on the wall as a reference. Once you have filed your key to the proper configuration, you need to go to the storage room door to the right and click on it. If you have carved your key correctly, the door will unlock and storage room will open. Inside, you should find a code behind one of the pillars. Remember this code and make your way to the second floor of the level. When safely reached, there should be a locked gate that requires a code to be opened. Insert the code you found in the storage room onto the lock. If done correctly, the gate will lift and you may proceed. From there, move forward until you eventually find a white glowing exit. Simply touch the exit in order to escape the level and move onto Level 18."
+            "Level Type": "Puzzle",
+            "Entities": "- Caretaker",
+            "Badges": "- PRE-ALPHA TESTER\n- Chapter 2",
+            "Description": "Left Scarred is the eighteenth level of Apeirophobia. The walls are a pale brown concrete, and the floor is a patterned carpet.",
+            "Tutorial": " In order to beat the level, you must avoid the Caretaker. Additionally, collect a key from spawn and shave it according to the image provided in the level. Use the key to unlock the storage room and collect the code. Find a gate, enter the code, and find the exit through the maze.",
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “PRE-ALPHA TESTER” badge from any of the levels."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 18 - Mall": {
         "sections": {
-            "Overview": "Level 18 (Mall) is the second level in Chapter 2 (Escape From Reality) and the 19th level in Apeirophobia. It takes the appearance of a gigantic mall with two floors, 3 Simon Says puzzles on the upper floor and only 2 on the lower floor, it has various department stores on both floors and also has multiple district areas (a, b, c, d...) on the lower floor.",
-            "Description": "The mall exterior has a large parking lot with dim streetlights barely illuminating it. Over at the very front of the mall is a small round-shaped building with an extensive neon sign on top of it. Its interior is very empty and spacious, with its only occupants being mannequins, serving to kill the player. The spawn location inside the level is the mall's food court on the first floor. The place has abandoned and empty food stalls around the food court and the rest of the mall.\nUpon further look, some sections have been blocked off by debris and piles of furniture. Most of the stores have also been left locked, leaving only a small number of stores being left open. When entering any of these stores, they're also mostly abandoned, leaving behind only a few mannequins and decorations inside. Although the location is seen and described as a mall, it's left with zero escalators, relying on you to walk downstairs that lead to the ground floor.\nThe ground floor also takes the same appearance and style as the first floor, empty with barely any stores left open, thus leaving only an abandoned, cold mall for the player to explore. The only addition is that the entire ground floor is infested by a single Hound rather than several mannequins scattered around that are found around the upstairs of the mall. ",
-            "Objective": "The player must search for five puzzles scattered around the map, upon finding and starting it, the puzzle will randomly flash its buttons five times, the player must then memorize the order of the flashing buttons and replicate it. Failing it will make the buttons emit a red light and you will be given a second chance. Upon completing every puzzle, a gate on the bottom floor will open, going through the now opened gate will end your journey on this level."
+            "Level Type": "Puzzle",
+            "Entities": "- Hoax\n- Hound",
+            "Badges": "- PRE-ALPHA TESTER\n- Atomic Expert",
+            "Description": "Mall is the nineteenth level of Apeirophobia. Due to the shops in the level, the walls and floors vary depending on your location.",
+            "Tutorial": " In order to beat the level, you must avoid both the Hoaxes and the Hound. Additionally, solve all five of the puzzles around the map and find the exit.",
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “PRE-ALPHA TESTER” badge from any of the levels.\n- The Atomic Expert badge is a one in one-hundred twenty chance."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 19 - Store": {
         "sections": {
-            "Overview": "Level 19 (Store) is the third level in Chapter 2 (Escape From Reality) and the 20th level in Apeirophobia. It takes the appearance of a large food mart with empty shelves, freezers and shopping carts.",
-            "Description": "Level 19 takes the appearance of a large food mart with empty shelves, freezers and shopping carts. The level is divided into 3 main areas- the spawn area, the store and the changing rooms. The spawn area is a small 'L' shaped room with blue wooden planks as the floor, gray tiled ceiling and two colored walls. The walls are white and green, with brown trims on the top, middle and bottom. The room has 3 rows of 6 blue cabinets each and multiple tables with even more foldable chairs, some of which are flipped over. The second part of the level is the foodmart. The foodmart is a large open area with gray floor tiling, white and green walls and a green ceiling with suspended lights and signs saying, which alley has what. The walls have white writing on them, saying which section is meant for what. One of these writings tells us that the store is called Atlas Foodmart. On the opposite side of the spawn area you can find double doors, which appear to be the entrance to the store, and a walk-in freezer with a long corridor ending in a closed door leading into an empty room. The third and final part of the level are the changing rooms, which are accessible by turning left on the first occasion in the freezer corridor, just to walk into a room with another corridor. That one leads us to the changing room maze. The changing rooms have greyish-blue tiling and blue lights. The walls are decorated with showers, black benches and more cabinets.",
-            "Objective": "You will need to find a walk-through freezer with an open door, it is located alongside other freezers on the back right of the store. That will lead you to a long corridor, turn left. You'll find a room with another door, go through that door and find a bathroom. That bathroom should have multiple showers, drains and curtains. The exit will be a double door to Level 20."
+            "Level Type": "Exploration",
+            "Badges": "- PRE-ALPHA TESTER",
+            "Description": "Store is the twentieth level of Apeirophobia. The walls in the first section are yellow and green concrete, and the floor is grey tiles. In the second section, the walls and floor are white tiles.",
+            "Tutorial": " In order to beat the level, find the exit.",
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “PRE-ALPHA TESTER” badge from any of the levels."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 20 - Neighborhood": {
         "sections": {
-            "Overview": "Level 20 (Neighborhood) is the fourth level in Chapter 2 and the 21st level in Apeirophobia. It takes place in a suburban neighborhood with a dark atmosphere.",
-            "Description": "Level 20 takes the appearance of a big neighborhood with multiple houses, lamp posts, and grassy areas. The town is covered in a very dark sky, thus making the level devoid of light. At the start of the level, you can see a car accident which had occurred sometime throughout the existence of this level. The only source of light comes from the aforementioned lamp posts which provide a measly amount of light and have a tendency to turn off when you stand under them at times which can sometimes be more specific than others. There is also seemingly worn-down infrastructure alongside the dimly-lit paths you will likely walk under. Though the road shows no signs of abruptly having an immediate issue like a sinkhole, it still doesn't change that the roads are of terrible quality.",
-            "Objective": "In order to escape, the player must wander around the path of the streetlights, The streetlights will direct the player by flickering on and off when they're under the streetlights if they're going the correct way. There is an unlocked house that's next to one of the last streetlights which you will find if you've went the right way. It is very easy to know if you are at the right spot as if you move under another streetlight in a direction which leads away from the correct house, it won't flicker."
+            "Level Type": "Exploration",
+            "Badges": "- PRE-ALPHA TESTER",
+            "Description": "Neighborhood is the twenty-first level of Apeirophobia. The map is a small neighborhood formed like a Levittown.",
+            "Tutorial": " In order to beat the level, follow the lights and knock on the correct door.",
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “PRE-ALPHA TESTER” badge from any of the levels."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 21 - Graveyard": {
         "sections": {
-            "Overview": "Level 21 (Graveyard) is the fifth level in Chapter 2 (Escape from Reality) and the 22nd level in Apeirophobia, which is a massive forest with many interconnecting roads and sidewalks all around, which are naturally connecting to one large graveyard with a Church in range, indicated by the echoing bell chimes.",
-            "Description": "Level 21 is a vast forest with numerous interconnecting roads and sidewalks everywhere, all joining up to a large graveyard with a church in a relatively close vicinity from it, with the church bells chiming numerous times when you enter the level. The paths appear to be in modest condition - not brand new but have no indications of being picked away at by time or being damaged at all. The gravestones vary between their designs, some being botonee crosses, others being Celtic crosses, or some just being regular gravestones that you're likely used to, with an oval top and shoulders. The list spans on for ages. Trees loom over the pathways, being highlighted by the gleam of the moon. The Church stands tall within the graveyard, being topped with many holy crosses placed on certain points on top of the church.\nThe Church is very interesting when you enter it, with large medieval-like doors and a gloomy inside, being dimly lit up by a couple of weak torches. A chandelier hangs from the roof in the middle of the church; at the back of the church, a few towering holy crosses hang from the wall. An interesting floor pattern is displayed, with a very striking design bound to catch the attention of anyone who looks downwards.",
-            "Objective": "Song Name\nArtist\nStatus\nBlack Hour\nAmpient\nUsed"
+            "Level Type": "Exploration",
+            "Entities": "- Keeper",
+            "Badges": "- PRE-ALPHA TESTER",
+            "Description": "Graveyard is the twenty-second level of Apeirophobia. The map is a small cemetery with a church in the middle.",
+            "Tutorial": " In order to beat the level, you must avoid the Keeper. Additionally, find and use the two keys that can be found on the gravestones in the first section. In the second section, turn off all the lights in the church and go through the exit in under a minute.",
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “PRE-ALPHA TESTER” badge from any of the levels."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 22 - Party Mall": {
         "sections": {
-            "Overview": "Level 22 (Party Mall) is the sixth level in Chapter 2 (Escape From Reality) and the 23rd level in Apeirophobia. It takes the appearance of a party mall with unique fluorescent-colored designs all over the map with upbeat music playing in the background as the player roams.",
-            "Description": "Level 22 is described as a party mall but highly resembles a neon arcade. Although the level does not have arcade machines, it has many high tables and chairs, reception desks, power boxes, and lots of room to roam around. Although the area is spacious, the wall ornamentations and the ceiling decor top it off with many unique fluorescent-colored designs, such as waves, shapes, outlining, and many more. The place's design is far more unique, with several wall designs aside from fluorescent decor on top of the walls and ceiling. Around the mall, you can find several other things, such as mirrors, caution signs, trash bins, welcome signs, armchairs, cans/cups, and many more. It also has several floors that go under the ground but are not accessible. The only areas accessible that go underground have escalators leading down to a smaller level of tables and chairs. Behind the pretty designs, the party mall has a bunch of shelves and spare chairs/tables in the staff-only area, thus leading to a lot of cluttering and a messy room, making it hard to navigate. A lot of the doors shown inside the level are also inaccessible, such as VIP areas, backrooms/staff rooms, and many more.",
-            "Objective": "To escape this level, you need to wander around both floors until you find a room with a sign written \"Staff Only\", upon finding it, turn right then take another right, then another left and you will be greeted with the exit."
+            "Level Type": "Exploration",
+            "Badges": "- PRE-ALPHA TESTER",
+            "Description": "Party Mall is the twenty-third level of Apeirophobia. The walls are white concrete, and the floor is grey tiles. Both the walls and floors feature random designs.",
+            "Tutorial": " In order to beat the level, find the exit.",
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “PRE-ALPHA TESTER” badge from any of the levels."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 23 - Hospital": {
         "sections": {
-            "Overview": "Level 23 (Hospital) is the seventh level in Chapter 2 (Escape From Reality) and the 24th level in Apeirophobia. It takes the appearance of a hospital with two pathes that you can take at the start of the level. ",
-            "Description": "Level 23's design is assumed to be an abandoned and rundown hospital, with most of its medical equipment left there. As you progress, the equipment is not only abandoned, but it's also in a messy manner with thrown over hospital beds, cluttered hallways with curtains, and other sorts of hospital equipment such as IV stands, wheelchairs, gurneys, shelves, and vending machines knocked over. The lighting is dimmer at different parts of the hospital. The hospital also houses the typical rooms you would take note of in a regular hospital, such as surgery rooms, patient rooms, waiting rooms, and many more.",
-            "Objective": ""
+            "Level Type": "Puzzle",
+            "Entities": "- Titan Smiler\n- Phaser\n- Cruelest",
+            "Badges": "- PRE-ALPHA TESTER\n- Ending 1\n- Ending 2",
+            "Description": "Hospital is the twenty-fourth level of Apeirophobia. The walls and floors vary depending on how you play the level, as there are two endings available for the level.",
+            "Tutorial": " In order to beat the level, you must choose an ending. In Ending 1, solve the color code and make your way to the exit. In Ending 2, make your way to the final section, and solve the puzzle to escape. For the puzzle, the black notches must be lined up in the floor, and the levers around the map correspond to the top or bottom pillar.",
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “PRE-ALPHA TESTER” badge from any of the levels."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     },
     "Level 24 - Train Station": {
         "sections": {
-            "Overview": "Level 24 takes place in an abandoned subway station, to which you will have no time to comprehend and analyze your surroundings or the atmosphere of the level, because, as soon as you spawn in, you will have to run for ages until you find an exit. Your surroundings may change to levels you are familiar with, or ones which may unsettle you.",
-            "Description": "Level 24 seems to be a rundown and abandoned subway station, the lighting is dim and not the best, barely illuminating the walls and the place itself. Decommissioned or flipped over trains stay mobile within some of the train tracks to block you from constantly sprinting down one track. Within the middle row, there is no tracks but a long concrete path with a few pillars lining the row. The walls of the level change within some areas to levels you may remember encountering, or they may change to an unsettling texture. They vary, but some of the changes include:\nA room with Level 0\u2019s run down wallpaper.\nA room with Level 1's wallpaper.\nA room mimicking Level 6's theme (red wallpaper).\nA room covered in a golden-like color, similar to Level 14's.",
-            "Objective": "The objective of Level 24 is simple: run until you find the exit. Similar to Level 6, you have to run from a large behemoth while avoiding obstacles which may stand in your way, these aforementioned obstacles being things like decommissioned or flipped over trains. Weaving between pillars or climbing upon flipped trains allow for you to successfully avoid the obstacles and continue sprinting onwards without losing your momentum. Eventually, you will come across a sinkhole within the train tracks, which you must jump down in order to escape the level."
+            "Level Type": "Exploration",
+            "Entities": "- Memory Worm",
+            "Badges": "- PRE-ALPHA TESTER",
+            "Description": "Train Station is the twenty-fifth level of Apeirophobia, and currently the last level. The walls and floors vary throughout the level.",
+            "Tutorial": " In order to beat the level, you must make it to the end of the level before the Memory Worm catches up to you.",
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “PRE-ALPHA TESTER” badge from any of the levels."
         },
-        "image": "https://image.url/image.png"
+        "images": ["https://example.com","https://example.com"]
     }
 }
