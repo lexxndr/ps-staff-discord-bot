@@ -1,11 +1,13 @@
-import disnake, dotenv
+import disnake, dotenv, json
 from disnake.ext import commands
 
 env = dotenv.dotenv_values('.env')
 
+testGuilds = json.loads(env.get('testGuilds'))
+
 intents = disnake.Intents.default()
 intents.message_content = True
-bot = commands.InteractionBot(intents=intents,test_guilds=[1226166880960774225,1372528511985782877])
+bot = commands.InteractionBot(intents=intents,test_guilds=testGuilds)
 
 @bot.event
 async def on_ready():

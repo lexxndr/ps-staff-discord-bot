@@ -19,6 +19,7 @@ py -3 -m pip install -U -r requirements.txt
 ```
 token=your discord token
 guthib=your github raw url
+testGuilds=[your test guilds ids]
 ```
 
 ## usage
@@ -27,10 +28,6 @@ Run the bot with:
 python main.py
 ```
 Make sure your `.env` file is in the right place and filled with the correct shit.
-
-## configuration
-- `token`: Your Discord bot token. Don't fucking share this with anyone.
-- `guthib`: The raw URL to your GitHub repo or whatever the bot needs to pull from.
 
 ## support
 If this shit breaks, i dont care if you are not a polaroid staff. Check your setup, your Python version, and your environment variables.
