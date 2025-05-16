@@ -9,7 +9,12 @@
             "Tutorial": " In order to beat the level, you must avoid the main entities, Howler and Siren, and find your way to the exit of the level, a vent in the wall. Following the black arrows around the maze may help you to reach the exit.",
             "Fun Facts": "- The Lobby is one of two levels to have more than one reality core present.\n- The Lobby has the most possible badges per level in the game.\n- Standing on Ben's chair protects you from the entities."
         },
-        "images": ["https://static.wikia.nocookie.net/apeirophobia/images/3/32/Level0.png/revision/latest?cb=20241029230446","https://static.wikia.nocookie.net/apeirophobia/images/c/c9/Level0Maze.png/revision/latest?cb=20241029230518", "https://static.wikia.nocookie.net/apeirophobia/images/a/a3/Level0Exit.png/revision/latest?cb=20241029221420", "https://static.wikia.nocookie.net/apeirophobia/images/8/86/Level0BenChair.png/revision/latest?cb=20241029230502"]
+        "images": [
+            "https://static.wikia.nocookie.net/apeirophobia/images/3/32/Level0.png/revision/latest?cb=20241029230446",
+            "https://static.wikia.nocookie.net/apeirophobia/images/c/c9/Level0Maze.png/revision/latest?cb=20241029230518",
+            "https://static.wikia.nocookie.net/apeirophobia/images/a/a3/Level0Exit.png/revision/latest?cb=20241029221420",
+            "https://static.wikia.nocookie.net/apeirophobia/images/8/86/Level0BenChair.png/revision/latest?cb=20241029230502"
+        ]
     },
     "Level 1 - Poolrooms": {
         "sections": {
@@ -21,7 +26,10 @@
             "Tutorial": " In order to beat the level, you must avoid the Starfish, find and turn all five valves in the map, and go through the exit at the end of the tunnel.",
             "Fun Facts": "- The Poolrooms used to have six valves."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 2 - Windows": {
         "sections": {
@@ -30,7 +38,10 @@
             "Tutorial": " In order to beat the level, you must jump into the exit.",
             "Fun Facts": "- The Windows used to have a reality core."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 3 - Abandoned Office": {
         "sections": {
@@ -42,7 +53,10 @@
             "Tutorial": " In order to beat the level, you must avoid the Hound, find and use all three keys, activate all eight buttons in the second half of the level, and go through the exit from the start of the map.",
             "Fun Facts": "- Abandoned Office is one of two levels to have more than one reality core present.\n- Abandoned Office is currently the fastest level in the game."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 4 - The Sewers": {
         "sections": {
@@ -53,7 +67,10 @@
             "Tutorial": " In order to beat the level, you must find the exit.",
             "Fun Facts": "- The Sewers is the only level in the game that has been completely remade.\n- Due to a leftover asset, the simulation core in The Sewers will slowly drift into the center of the spawn until it becomes impossible to get (though it would take over an hour to reach such a state)."
         },
-        "images": ["https://example.com","https://example.com"]        
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 5 - Cave System": {
         "sections": {
@@ -65,7 +82,10 @@
             "Tutorial": " In order to beat the level, you must avoid the Skinwalker and locate the exit. The entity will follow the player around, make fake whistling noises, and follow the sound of player whistles.",
             "Fun Facts": "- In the old version of the level, sticking to the right wall would lead you to the exit."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 6 - !!!!!!!!!!": {
         "sections": {
@@ -75,16 +95,22 @@
             "Tutorial": " In order to beat the level, you must make it to the end of the level before the Titan Smiler catches up to you.",
             "Fun Facts": "- In a minor update, the level was nerfed and removed a big portion of the original level."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 7 - The End is Near": {
         "sections": {
             "Level Type": "Puzzle",
             "Description": "The End is Near is the eighth level of Apeirophobia. The walls are a light yellow concrete, and floors are several variations of carpet. The level also features shelves which contain either the orbs to the first puzzle or books, one of which will solve the second puzzle.",
-            "Tutorial": " In order to beat the level, you must solve all of the puzzles and make it to the exit. The first puzzle requires you to solve the code given to you on the PC with six colored orbs; the second puzzle requires you to input codes given to you in the red book on the shelf; lastly, the third puzzle, the PC, requires you to input the letter “y” into the PC.",
+            "Tutorial": " In order to beat the level, you must solve all of the puzzles and make it to the exit. The first puzzle requires you to solve the code given to you on the PC with six colored orbs; the second puzzle requires you to input codes given to you in the red book on the shelf; lastly, the third puzzle, the PC, requires you to input the letter \u201cy\u201d into the PC.",
             "Fun Facts": "- In a minor update, the level was nerfed and removed a big portion of the first set of vents.\n- The second update of the game was named after Level 7."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 8 - Lights Out": {
         "sections": {
@@ -93,7 +119,10 @@
             "Description": "Lights Out is the ninth level of Apeirophobia. The walls are light grey concrete, and the floor is grey concrete. In the middle of the map, a long section of the level connects the first and last section and features wooden tiled floors and scattered chairs.",
             "Tutorial": " In order to beat the level, you must avoid the Skinstealer and find the exit."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 9 - Sublimity": {
         "sections": {
@@ -104,7 +133,10 @@
             "Tutorial": " In order to beat the level, you must jump into the exit.",
             "Fun Facts": "- The player used to spawn in the big pool, causing players with a bad load time to drown.\n- The hitbox of the old exit is still present in the map."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 10 - The Abyss": {
         "sections": {
@@ -114,7 +146,10 @@
             "Tutorial": " In order to beat the level, you must avoid the Titan Smiler, and locate the keys on the lockers of the map. Using the keys, you must find the correct door in the corners of the map, giving you a one in four chance of beating the level.",
             "Fun Facts": "- The Abyss used to have two entities, but this was lowered to one after the ability to enter lockers was removed from the level."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 11 - The Warehouse": {
         "sections": {
@@ -123,7 +158,10 @@
             "Tutorial": " In order to beat the level, you must solve the color code and make your way through the parkour sections, finding keys along the way, until you eventually get to the exit.",
             "Fun Facts": "- In a minor update, the parkour of both sections was severely nerfed due to players struggling to pass the level."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 12 - Creative Minds": {
         "sections": {
@@ -131,7 +169,10 @@
             "Description": "Creative Minds is the thirteenth level of Apeirophobia. The walls and floor are white paper.",
             "Tutorial": " In order to beat the level, you must find and place all three paintings and make your way to the exit."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 13 - The Funrooms": {
         "sections": {
@@ -140,7 +181,10 @@
             "Description": "The Funrooms is the fourteenth level of Apeirophobia. The walls are a yellowish concrete, and the floor is a silly carpet. The level also features a playground, tables, and chairs.",
             "Tutorial": " In order to beat the level, you must avoid the Partygoer in the second half of the level. In the first section, activate all five stars to open the gate. In the second section, find all three plushes in the maze and find the exit."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 14 - Electrical Station": {
         "sections": {
@@ -149,7 +193,10 @@
             "Description": "Electrical Station is the fifteenth level of Apeirophobia. The walls are white tiles, and the floor is grey tiles. The level has many rooms that have a variety of objects inside of them.",
             "Tutorial": " In order to beat the level, you must avoid the Stalker. Additionally, you must locate the screwdriver and wire cutters to use them on the door at the spawn, and find the exit. If you aggro the Stalker once, the alarms will sound off, and aggroing him a second time before the alarms are turned off will kill you. To turn off the alarms, go into the control room near the spawn."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 15 - The Ocean of the Final Frontier": {
         "sections": {
@@ -160,7 +207,10 @@
             "Tutorial": " In order to beat the level, you must repair the boat as you drive away from the entity.",
             "Fun Facts": "- The Ocean of the Final Frontier is currently the longest level in the game."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 16 - Crumbling Memory": {
         "sections": {
@@ -170,7 +220,10 @@
             "Description": "Crumbling Memory is the seventeenth level of Apeirophobia. It is a corrupted version of The Lobby, and thus has the exact same layout.",
             "Tutorial": " In order to beat the level, you must avoid the Deformed Howler. Additionally, find the gas can, matches, and bear trap. Afterwards, you must trap the entity at the spawn of the map. Every time you collect a new item (and place the trap at spawn), the entity will spawn close to you."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 17 - Left Scarred": {
         "sections": {
@@ -179,9 +232,12 @@
             "Badges": "- [PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\n- [Chapter 2](<https://www.roblox.com/badges/2152275082/->)",
             "Description": "Left Scarred is the eighteenth level of Apeirophobia. The walls are a pale brown concrete, and the floor is a patterned carpet.",
             "Tutorial": " In order to beat the level, you must avoid the Caretaker. Additionally, collect a key from spawn and shave it according to the image provided in the level. Use the key to unlock the storage room and collect the code. Find a gate, enter the code, and find the exit through the maze.",
-            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)” badge from any of the levels."
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the \u201c[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\u201d badge from any of the levels."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 18 - Mall": {
         "sections": {
@@ -190,9 +246,12 @@
             "Badges": "- [PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\n- [Atomic Expert])(<https://www.roblox.com/badges/2152275076/->)",
             "Description": "Mall is the nineteenth level of Apeirophobia. Due to the shops in the level, the walls and floors vary depending on your location.",
             "Tutorial": " In order to beat the level, you must avoid both the Hoaxes and the Hound. Additionally, solve all five of the puzzles around the map and find the exit.",
-            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)” badge from any of the levels.\n- The Atomic Expert badge is a one in one-hundred twenty chance."
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the \u201c[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\u201d badge from any of the levels.\n- The Atomic Expert badge is a one in one-hundred twenty chance."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 19 - Store": {
         "sections": {
@@ -200,9 +259,12 @@
             "Badges": "- [PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)",
             "Description": "Store is the twentieth level of Apeirophobia. The walls in the first section are yellow and green concrete, and the floor is grey tiles. In the second section, the walls and floor are white tiles.",
             "Tutorial": " In order to beat the level, find the exit.",
-            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)” badge from any of the levels."
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the \u201c[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\u201d badge from any of the levels."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 20 - Neighborhood": {
         "sections": {
@@ -210,9 +272,12 @@
             "Badges": "- [PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)",
             "Description": "Neighborhood is the twenty-first level of Apeirophobia. The map is a small neighborhood formed like a Levittown.",
             "Tutorial": " In order to beat the level, follow the lights and knock on the correct door.",
-            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)” badge from any of the levels."
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the \u201c[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\u201d badge from any of the levels."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 21 - Graveyard": {
         "sections": {
@@ -221,9 +286,12 @@
             "Badges": "- [PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)",
             "Description": "Graveyard is the twenty-second level of Apeirophobia. The map is a small cemetery with a church in the middle.",
             "Tutorial": " In order to beat the level, you must avoid the Keeper. Additionally, find and use the two keys that can be found on the gravestones in the first section. In the second section, turn off all the lights in the church and go through the exit in under a minute.",
-            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)” badge from any of the levels."
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the \u201c[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\u201d badge from any of the levels."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 22 - Party Mall": {
         "sections": {
@@ -231,9 +299,12 @@
             "Badges": "- [PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)",
             "Description": "Party Mall is the twenty-third level of Apeirophobia. The walls are white concrete, and the floor is grey tiles. Both the walls and floors feature random designs.",
             "Tutorial": " In order to beat the level, find the exit.",
-            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)” badge from any of the levels."
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the \u201c[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\u201d badge from any of the levels."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 23 - Hospital": {
         "sections": {
@@ -242,9 +313,12 @@
             "Badges": "- [PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\n- [Ending 1](<https://www.roblox.com/badges/2152278222/->)\n- [Ending 2](<https://www.roblox.com/badges/2152278227/->)",
             "Description": "Hospital is the twenty-fourth level of Apeirophobia. The walls and floors vary depending on how you play the level, as there are two endings available for the level.",
             "Tutorial": " In order to beat the level, you must choose an ending. In Ending 1, solve the color code and make your way to the exit. In Ending 2, make your way to the final section, and solve the puzzle to escape. For the puzzle, the black notches must be lined up in the floor, and the levers around the map correspond to the top or bottom pillar.",
-            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)” badge from any of the levels."
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the \u201c[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\u201d badge from any of the levels."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     },
     "Level 24 - Train Station": {
         "sections": {
@@ -253,8 +327,11 @@
             "Badges": "- [PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)",
             "Description": "Train Station is the twenty-fifth level of Apeirophobia, and currently the last level. The walls and floors vary throughout the level.",
             "Tutorial": " In order to beat the level, you must make it to the end of the level before the Memory Worm catches up to you.",
-            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the “[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)” badge from any of the levels."
+            "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the \u201c[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\u201d badge from any of the levels."
         },
-        "images": ["https://example.com","https://example.com"]
+        "images": [
+            "https://example.com",
+            "https://example.com"
+        ]
     }
 }
