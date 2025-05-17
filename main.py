@@ -21,8 +21,7 @@ async def update_ts(bot: commands.InteractionBot):
                 content = json.loads(response)
 
                 async with aiofiles.open(f"./json/{filename}", "w", encoding="utf8") as file:
-                    dumped = json.dumps(content)
-                    await file.write(dumped)
+                    await file.write(response)
                     print("sawed off")
 
             else:

@@ -8,7 +8,7 @@ client = AsyncClient(provider=RetryProvider([Free2GPT, FreeGpt, GizAI, Liaobots,
 
 triggerWords = [
     # upd
-    "upd", "updd", "upd.", "upd-", "u-pd",
+    "upd", "updd", "upd.", "upd-", "u-pd", "upda",
     
     # update
     "update", "updated", "updat", "updae", "upate", "udapte", "updtae", "upadte", "upadate", "udate",

@@ -26,8 +26,8 @@ class levelInfo(commands.Cog):
                         item
                         for key, value in sections.items()
                         for item in (
-                            ui.TextDisplay(f"## {self.emojiList.get(key, '')}  {key}\n**    {value}**"),
-                            ui.Separator(spacing=disnake.SeparatorSpacingSize.small),
+                            ui.TextDisplay(f"## {self.emojiList.get(key, '')}  {key}\n>>> {value}"),
+                            ui.Separator(spacing=disnake.SeparatorSpacingSize.large),
                         )
                     ],
                     ui.TextDisplay('## <:Gallery:1372670132249296946>  Gallery'),
@@ -51,11 +51,11 @@ class levelInfo(commands.Cog):
     
     @levelinfo.autocomplete("level")
     async def level_autocomplete(self, inter: disnake.ApplicationCommandInteraction, string: str):
-        if not self.levelList:
+        if not self.bot.jsones["newlevel.json"]:
             return []
 
         suggestions = [
-            level_name for level_name in self.levelList.keys()
+            level_name for level_name in self.bot.jsones["newlevel.json"].keys()
             if string.lower() in level_name.lower()
         ][:25]  # Discord limit for autocomplete options
 
