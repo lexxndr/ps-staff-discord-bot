@@ -36,48 +36,6 @@
             }
         ]
     },
-    "speedrunQuestions": {
-        "label": "Speedrun FAQ",
-        "description": "Information on Speedrunning",
-        "embed": [
-            {
-                "name": "\nHow do I start speedrunning?",
-                "value": "Watch other people's runs, read this FAQ section, ask questions in #speedrun-questions. All information needed to start speedrunning can be found here: <https://speedrun.com/apeirophobia>"
-            },
-            {
-                "name": "Where can I read the rules?",
-                "value": "You can read the rules on the Apeirophobia SRC page. Click on the 'Show rules' button in any leaderboard section and it will show you the rules for that category."
-            },
-            {
-                "name": "What difficulty do I play on?",
-                "value": "For Full-Game, all runs are played on Hard. For Individual Levels, levels will differ between **Easy** and **Hard** depending on the levels properties."
-            },
-            {
-                "name": "How do I record a speedrun?",
-                "value": "Use any recording software available for your OS. For Windows, you should use **OBS Studio**, but as long as the recording itself is decent quality and everything can be seen, you can use different software."
-            },
-            {
-                "name": "Do I need to have a timer on my speedrun?",
-                "value": "No, let the Speedrun Staff take care of timing your run, that’s our job after all."
-            },
-            {
-                "name": "How do I submit a speedrun?",
-                "value": "To submit a run to speedrun.com (SRC) you need to register/log in the speedrun.com website. Then, go on the Apeirophobia SRC page and click on 'Submit Run' button. Fill all required information (video link, player names) and sooner or later your speedrun will be **verified**."
-            },        
-            {
-                "name": "'Can someone please verify my speedrun?'",
-                "value": "Speedrun Staff are people too! Stay patient and wait for your run to get verified. If the run is pending for longer than 21 days, feel free to DM a Speedrun Staff the run and politely ask for it to get verified."
-            },
-            {
-                "name": "What happened to the leaderboards / What happened to my old run(s)?",
-                "value": "The leaderboards are often changing as the game gets updated and as rules shift around. For example, the leaderboard will be reset if a level gets updated in a way that makes the former WR **impossible** to beat."
-            },
-            {
-                "name": "Extra Info:",
-                "value": "Additional links\n All Maps Document: https://docs.google.com/document/d/1yiw52Js35YTV7FMGOptPgnXy-1DZ7nQu5vj_A4X8IsY/\nGuides: https://www.speedrun.com/apeirophobia/guides\nResources: https://www.speedrun.com/apeirophobia/resources"
-            }     
-        ]
-    },
     "roleInfo": {
         "label": "Server Roles",
         "description": "Information on Roles",
@@ -158,6 +116,73 @@
                 "name": "Custom Roles",
                 "value": "In the server, members who reach level 100 are given the choice of having a custom role. These are personalized roles that are exclusively for you and nobody else."
             }
+        ]
+    },
+    "speedrunQuestions": {
+        "label": "Speedrun FAQ",
+        "description": "Information on Speedrunning",
+        "embed": [
+            {
+                "name": "\nHow do I start speedrunning?",
+                "value": "Watch other people's runs, read this FAQ section, ask questions in #speedrun-questions. All information needed to start speedrunning can be found here: <https://speedrun.com/apeirophobia>"
+            },
+            {
+                "name": "Where can I read the rules?",
+                "value": "You can read the rules on the Apeirophobia SRC page. Click on the 'Show rules' button in any leaderboard section and it will show you the rules for that category."
+            },
+            {
+                "name": "What difficulty do I play on?",
+                "value": "For Full-Game, all runs are played on Hard. For Individual Levels, levels will differ between **Easy** and **Hard** depending on the levels properties."
+            },
+            {
+                "name": "How do I record a speedrun?",
+                "value": "Use any recording software available for your OS. For Windows, you should use **OBS Studio**, but as long as the recording itself is decent quality and everything can be seen, you can use different software."
+            },
+            {
+                "name": "Do I need to have a timer on my speedrun?",
+                "value": "No, let the Speedrun Staff take care of timing your run, that’s our job after all."
+            },
+            {
+                "name": "How do I submit a speedrun?",
+                "value": "To submit a run to speedrun.com (SRC) you need to register/log in the speedrun.com website. Then, go on the Apeirophobia SRC page and click on 'Submit Run' button. Fill all required information (video link, player names) and sooner or later your speedrun will be **verified**."
+            },        
+            {
+                "name": "'Can someone please verify my speedrun?'",
+                "value": "Speedrun Staff are people too! Stay patient and wait for your run to get verified. If the run is pending for longer than 21 days, feel free to DM a Speedrun Staff the run and politely ask for it to get verified."
+            },
+            {
+                "name": "What happened to the leaderboards / What happened to my old run(s)?",
+                "value": "The leaderboards are often changing as the game gets updated and as rules shift around. For example, the leaderboard will be reset if a level gets updated in a way that makes the former WR **impossible** to beat."
+            },
+            {
+                "name": "Extra Info:",
+                "value": "Additional links\n All Maps Document: https://docs.google.com/document/d/1yiw52Js35YTV7FMGOptPgnXy-1DZ7nQu5vj_A4X8IsY/\nGuides: https://www.speedrun.com/apeirophobia/guides\nResources: https://www.speedrun.com/apeirophobia/resources"
+            }     
+        ]
+    },    
+    "speedrunRequirements": {
+        "label": "Speedrun Requirements",
+        "description": "Information on Speedrunning roles/titles",
+        "embed": [
+            {
+                "name": "Speedrunner Role Requirements:",
+                "value": "1. Have a verified run on **any** category. This includes full-game, individual levels, or co-op.\n2. To get the Speedrunner Role, DM a Speedrun Staff a link to your run."
+            },
+            {
+                "name": "World Record (WR) Role Requirements:",
+                "value": "1. Both PC and Mobile are allowed.\n2. Run must be on a **main** category (full-game or any% individual levels.\n3. There needs to be at least **1** non-obsoleted run in the category you have WR on. \n4. Run must be **submitted** for at least 3 days.\n5. When asking for WR Role, you must have the WR at the time of submission.\n6. To get the WR role in Discord, DM a Speedrun Staff the link to your WR run.\n7. Once you get the role, you keep it."
+            },
+            {
+                "name": "Breakthrough (BT) Title Requirements:",
+                "value": "1. Both PC and Mobile are allowed.\n2. WR must be on a full-game category **and** done solo.\n3. Run must be **submitted** for at least 3 days.\n4. There needs to be at least **3** non-obsoleted runs in the category you have WR on. **For mobile players, there must be at least 2 non-obsoleted runs.**\n5. When you ask for BT Title, you must have the WR at the time of submission.\n6. To get the BT Title on Roblox, DM a Speedrun Staff the link to your WR run.\n7. If you get BT title you keep it forever."
+            },
+            {
+                "name": "Notes:",
+                "value": "submitted - time starts from moment you submit the run, when the run was verified does not matter.\nfull-game - Pre-Classic, Classic, Modern, Chapter 1, Chapter 2 Ending 1, Chapter 2 Ending 2"
+            }
+
+
+
         ]
     }
 }
