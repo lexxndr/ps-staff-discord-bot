@@ -112,7 +112,7 @@
             {
                 "name": "\n- \nPermissions:\n- \nImage Perms",
                 "value": "Level 30 or higher, Developers, Myths, Moderation Department, Testing Department, Retired Staff, Speedrun Staff, Recognized, World Record, Friends, Server Booster, and Image Perms."
-            },            
+            },
             {
                 "name": "Streaming Perms",
                 "value": "Level 20 or higher, Developers, Moderation Department, Retired Staff, Speedrun Staff, Recognized, Content Creator, Speedrunner, Server Booster, and Streaming Perms."
@@ -154,7 +154,7 @@
             {
                 "name": "How do I submit a speedrun?",
                 "value": "To submit a run to speedrun.com (SRC) you need to register/log in the speedrun.com website. Then, go on the Apeirophobia SRC page and click on 'Submit Run' button. Fill all required information (video link, player names) and sooner or later your speedrun will be **verified**."
-            },        
+            },
             {
                 "name": "'Can someone please verify my speedrun?'",
                 "value": "Speedrun Staff are people too! Stay patient and wait for your run to get verified. If the run is pending for longer than 21 days, feel free to DM a Speedrun Staff the run and politely ask for it to get verified."
@@ -166,9 +166,9 @@
             {
                 "name": "Extra Info:",
                 "value": "Additional links\n All Maps Document: https://docs.google.com/document/d/1yiw52Js35YTV7FMGOptPgnXy-1DZ7nQu5vj_A4X8IsY/\nGuides: https://www.speedrun.com/apeirophobia/guides\nResources: https://www.speedrun.com/apeirophobia/resources"
-            }     
+            }
         ]
-    },    
+    },
     "speedrunRequirements": {
         "label": "Speedrun Requirements",
         "description": "Information on Speedrunning roles/titles",
@@ -189,9 +189,6 @@
                 "name": "Notes:",
                 "value": "submitted - time starts from moment you submit the run, when the run was verified does not matter.\nfull-game - Pre-Classic, Classic, Modern, Chapter 1, Chapter 2 Ending 1, Chapter 2 Ending 2"
             }
-
-
-
         ]
     }
 }
