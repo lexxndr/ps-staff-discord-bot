@@ -17,9 +17,9 @@ py -3 -m pip install -U -r requirements.txt
 
 2. get your fucking `.env` ready
 ```
-token=your discord token
-guthib=your github raw url
-testGuilds=[your test guilds ids]
+TOKEN=your discord token
+GUTHIB=your github raw url
+TEST_GUILDS=[your test guilds ids]
 ```
 
 ## usage

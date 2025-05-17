@@ -1,4 +1,4 @@
-import disnake, json
+import disnake
 from disnake.ext import commands
 
 class FAQ(commands.Cog):
@@ -17,8 +17,8 @@ class FAQ(commands.Cog):
 
         async def page(inter: disnake.MessageInteraction, page_name: str):
             embed = disnake.Embed(
-                title=faq_json[page_name]["label"], # faq_json[page_name]["label"]
-                description=faq_json[page_name]["description"], # faq_json[page_name]["description"]
+                title=faq_json[page_name]["label"],
+                description=faq_json[page_name]["description"],
                 color=disnake.Color.blue()
             )
 

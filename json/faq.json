@@ -6,31 +6,40 @@
             {
                 "name": "\nIs the game still being worked on?",
                 "value": "Yes, the game is actively being worked on."
-            },{
+            },
+            {
                 "name": "When is the next update?",
                 "value": "Nobody knows when the next update will be. Check out <#1021912153592176732> to see progress."
-            },{
+            },
+            {
                 "name": "Why does the server update but not the game?",
                 "value": "The development and moderation teams are separate. We manage different things."
-            },{
+            },
+            {
                 "name": "What should I do while I wait for the update?",
                 "value": "Try speedrunning! Check out <#1105613325875810435> to learn more."
-            },{
+            },
+            {
                 "name": "What happened to the old owner?",
                 "value": "Drama. They're not to be brought up here. Please respect that."
-            },{
+            },
+            {
                 "name": "How do I get image permissions?",
                 "value": "Read <#1023773325006217256> to see which roles have image permissions."
-            },{
+            },
+            {
                 "name": "How do I post in <#1021973016269312032>?",
                 "value": "You need to be **level 10 or higher** to post in suggestions."
-            },{
+            },
+            {
                 "name": "How do I gain levels faster?",
                 "value": "Be active in text channels and use the 'Fighting with Watcher' VC."
-            },{
+            },
+            {
                 "name": "Can someone help me with the game?",
                 "value": "Ask in <#1119009164312727663> or ping the **Game Guides** role."
-            },{
+            },
+            {
                 "name": "Does anyone want to play?",
                 "value": "Visit <#1021909104949743658> to find others to play with."
             }
@@ -103,7 +112,7 @@
             {
                 "name": "\n- \nPermissions:\n- \nImage Perms",
                 "value": "Level 30 or higher, Developers, Myths, Moderation Department, Testing Department, Retired Staff, Speedrun Staff, Recognized, World Record, Friends, Server Booster, and Image Perms."
-            },            
+            },
             {
                 "name": "Streaming Perms",
                 "value": "Level 20 or higher, Developers, Moderation Department, Retired Staff, Speedrun Staff, Recognized, Content Creator, Speedrunner, Server Booster, and Streaming Perms."
@@ -145,7 +154,7 @@
             {
                 "name": "How do I submit a speedrun?",
                 "value": "To submit a run to speedrun.com (SRC) you need to register/log in the speedrun.com website. Then, go on the Apeirophobia SRC page and click on 'Submit Run' button. Fill all required information (video link, player names) and sooner or later your speedrun will be **verified**."
-            },        
+            },
             {
                 "name": "'Can someone please verify my speedrun?'",
                 "value": "Speedrun Staff are people too! Stay patient and wait for your run to get verified. If the run is pending for longer than 21 days, feel free to DM a Speedrun Staff the run and politely ask for it to get verified."
@@ -157,9 +166,9 @@
             {
                 "name": "Extra Info:",
                 "value": "Additional links\n All Maps Document: https://docs.google.com/document/d/1yiw52Js35YTV7FMGOptPgnXy-1DZ7nQu5vj_A4X8IsY/\nGuides: https://www.speedrun.com/apeirophobia/guides\nResources: https://www.speedrun.com/apeirophobia/resources"
-            }     
+            }
         ]
-    },    
+    },
     "speedrunRequirements": {
         "label": "Speedrun Requirements",
         "description": "Information on Speedrunning roles/titles",
@@ -180,9 +189,6 @@
                 "name": "Notes:",
                 "value": "submitted - time starts from moment you submit the run, when the run was verified does not matter.\nfull-game - Pre-Classic, Classic, Modern, Chapter 1, Chapter 2 Ending 1, Chapter 2 Ending 2"
             }
-
-
-
         ]
     }
 }

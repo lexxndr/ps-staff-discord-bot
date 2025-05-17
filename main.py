@@ -3,15 +3,15 @@ from disnake.ext import commands, tasks
 
 env = dotenv.dotenv_values('.env')
 
-testGuilds = json.loads(env.get('testGuilds'))
+test_guilds = json.loads(env.get('TEST_GUILDS'))
 
 intents = disnake.Intents.default()
 intents.message_content = True
-bot = commands.InteractionBot(intents=intents,test_guilds=testGuilds)
+bot = commands.InteractionBot(intents=intents,test_guilds=test_guilds)
 
 async def update_ts(bot: commands.InteractionBot):
     async with aiohttp.ClientSession() as session:
-        url_base = env.get("guthib")
+        url_base = env.get("GUTHIB")
 
         async def updater(session: aiohttp.ClientSession, filename):
             request = await session.get(url_base+filename)
@@ -32,7 +32,7 @@ async def update_ts(bot: commands.InteractionBot):
             
             return filename, content
     
-        tasks = [updater(session, filename) for filename in ["faq.json", "newlevel.json", "systemprompt.json"]]
+        tasks = [updater(session, filename) for filename in ["faq.json", "new_level.json", "system_prompt.json"]]
         responses = await asyncio.gather(*tasks)
         bot.jsones = {response[0]: response[1] for response in responses}
 
@@ -46,4 +46,4 @@ async def on_ready():
     return await update_ts(bot)
 
 bot.load_extensions('cogs')
-bot.run(env.get('token'))
+bot.run(env.get('TOKEN'))

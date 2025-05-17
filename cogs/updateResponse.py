@@ -6,28 +6,24 @@ from disnake.ext import commands
 
 client = AsyncClient(provider=RetryProvider([Free2GPT, FreeGpt, GizAI, Liaobots, PollinationsAI], shuffle=False))
 
-triggerWords = [
-    # upd
+trigger_words = [
     "upd", "updd", "upd.", "upd-", "u-pd", "upda",
     
-    # update
     "update", "updated", "updat", "updae", "upate", "udapte", "updtae", "upadte", "upadate", "udate",
     "updatw", "updwte", "upzate", "upxate", "uodate", "upaet", "updste", "updaet", "updatr", "updaye",
     "ypdate", "ipdate", "pdate", "updare", "updt", "updte", "updatee", "updateee", "udpate",
-    
-    # updating
+
     "updating", "updatin", "updatng", "updting", "udating", "updaing", "upadting", "updeting",
     "updzting", "uodating", "updaitng", "updateing", "updatinh", "updatimg", "updatinb", "updatingg"
 ]
 
 def normalize_update_words(text: str) -> str:
-    sorted_words = sorted(triggerWords, key=len, reverse=True)
+    sorted_words = sorted(trigger_words, key=len, reverse=True)
     for word in sorted_words:
-        # Use word boundaries and ignore case
         text = re.sub(rf'(?<!\w){re.escape(word)}(?!\w)', "update", text, flags=re.IGNORECASE)
     return text
 
-class updateResponse(commands.Cog):
+class UpdateResponse(commands.Cog):
     def __init__(self, bot):
         self.bot=bot
 
@@ -35,8 +31,8 @@ class updateResponse(commands.Cog):
     async def on_message(self, message: disnake.Message):
         if message.author == self.bot.user:
             return
-        if any([triggerWord in message.content.lower() for triggerWord in triggerWords]):
-            normalized_msg = normalize_update_words(message.content) # Converts the weird words such as "u-pd" into "update" so the bot can understand.
+        if any([trigger_word in message.content.lower() for trigger_word in trigger_words]):
+            normalized_msg = normalize_update_words(message.content)
             response = await client.chat.completions.create(
                 model="gemini-1.5-flash",
                 messages=[
@@ -45,7 +41,7 @@ class updateResponse(commands.Cog):
                     ],
                 web_search=False
             )
-            if "None." in response.choices[0].message.content: # if this shit doesnt work i will blame the AI
+            if "None." in response.choices[0].message.content:
                 print(f"- {message.author.name} - message did not contain a question. ignoring.")
                 await message.reply("ignored - no questions about the update provided", allowed_mentions=disnake.AllowedMentions(everyone=False,users=False,roles=False,replied_user=False)) # ONLY FOR TESTING PURPOSES, DELETE ON THE FINAL RELEASE
                 return
@@ -56,4 +52,4 @@ class updateResponse(commands.Cog):
             return
         
 def setup(bot):
-    bot.add_cog(updateResponse(bot))
+    bot.add_cog(UpdateResponse(bot))
