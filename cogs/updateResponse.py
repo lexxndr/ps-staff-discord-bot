@@ -3,6 +3,7 @@ import re
 from g4f.client import AsyncClient
 from g4f.Provider import RetryProvider, Free2GPT, FreeGpt, GizAI, Liaobots, PollinationsAI
 from disnake.ext import commands
+from rich import print
 
 client = AsyncClient(provider=RetryProvider([Free2GPT, FreeGpt, GizAI, Liaobots, PollinationsAI], shuffle=False))
 
@@ -42,13 +43,13 @@ class UpdateResponse(commands.Cog):
                 web_search=False
             )
             if "None." in response.choices[0].message.content:
-                print(f"- {message.author.name} - message did not contain a question. ignoring.")
+                print(f":information_source:   {message.author.name} @ {message.created_at.strftime('%H:%M:%S')} UTC - message did not contain a question. ignoring.")
                 await message.reply("ignored - no questions about the update provided", allowed_mentions=disnake.AllowedMentions(everyone=False,users=False,roles=False,replied_user=False)) # ONLY FOR TESTING PURPOSES, DELETE ON THE FINAL RELEASE
                 return
             else:
                 await message.reply(response.choices[0].message.content, allowed_mentions=disnake.AllowedMentions(everyone=False,users=False,roles=False))
         else:
-            print(f"- {message.author.name} - message did not contain the word 'update'")
+            print(f":information_source:   {message.author.name} @ {message.created_at.strftime('%H:%M:%S')} UTC - message did not contain the word 'update'")
             return
         
 def setup(bot):

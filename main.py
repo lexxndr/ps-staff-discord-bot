@@ -1,5 +1,6 @@
 import disnake, aiofiles, aiohttp, asyncio, dotenv, json
 from disnake.ext import commands, tasks
+from rich import print
 
 env = dotenv.dotenv_values('.env')
 
@@ -22,7 +23,7 @@ async def update_ts(bot: commands.InteractionBot):
 
                 async with aiofiles.open(f"./json/{filename}", "w", encoding="utf8") as file:
                     await file.write(response)
-                    print("sawed off")
+                    print(f":information_source:   [white]{filename}[/white] loaded.")
 
             else:
                 print(f"foiled to get {filename} from guthib, using local file")
@@ -42,7 +43,8 @@ async def json_updater():
 
 @bot.event
 async def on_ready():
-    print(f'gurt : {bot.user.id}')
+    print(f'[bold white on black]bot is ready![/bold white on black]')
+    print(f':fish:  gurt : {bot.user.id}')
     return await update_ts(bot)
 
 bot.load_extensions('cogs')

@@ -5,7 +5,7 @@ class FAQ(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.slash_command(description="Show the Polaroid Studios FAQ.")
+    @commands.slash_command(description="Shows Polaroid Studios info.")
     async def faq(self, inter: disnake.ApplicationCommandInteraction):
         await inter.response.defer()
 
