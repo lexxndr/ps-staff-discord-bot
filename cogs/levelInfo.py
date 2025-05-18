@@ -52,9 +52,10 @@ class LevelInfo(commands.Cog):
             dropdown = disnake.ui.StringSelect(placeholder="Select a level", options=options)
 
             async def dropdown_callback(interaction: disnake.MessageInteraction):
-                if interaction.author != og_message.interaction_metadata.user:
-                    await interaction.response.send_message("Only the author of the message can use this dropdown.", ephemeral=True)
-                    return
+                # uncomment if ephemeral=False
+                #if interaction.author != og_message.interaction_metadata.user:
+                    #await interaction.response.send_message("Only the author of the message can use this dropdown.", ephemeral=True) 
+                    #return
                 container = await init_components(level=interaction.values[0])
                 await og_message.edit(components=container)
                 await interaction.response.defer()
@@ -64,7 +65,7 @@ class LevelInfo(commands.Cog):
             view = disnake.ui.View()
             view.add_item(dropdown)
             
-            await interaction.followup.send(view=view)
+            await interaction.followup.send(view=view, ephemeral=True)
         except KeyError:
             await interaction.response.send_message(f"*Incorrect option picked!*\nPlease, wait for all the options to appear.\n-# If nothing shows up after some time, report this to the developer.", ephemeral=True)
     
