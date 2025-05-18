@@ -68,8 +68,8 @@
             "Fun Facts": "- The Sewers is the only level in the game that has been completely remade.\n- Due to a leftover asset, the simulation core in The Sewers will slowly drift into the center of the spawn until it becomes impossible to get (though it would take over an hour to reach such a state)."
         },
         "images": [
-            "https://example.com",
-            "https://example.com"
+            "https://media.discordapp.net/attachments/1372528512526717051/1373015945324531732/Untitled_design_8.png?ex=682ada7e&is=682988fe&hm=f7964056a6fd8a202b1099877d05d1e39fec23520cc1d7b7ab03f9f0765b97a2&=&format=webp&quality=lossless",
+            "https://media.discordapp.net/attachments/1372528512526717051/1373015945575927869/Untitled_design_7.png?ex=682ada7e&is=682988fe&hm=84ab5e68bf9c75e6ab275f6ff6a6d2baa9ffbd91860a305a933a48d9c50c9e8f&=&format=webp&quality=lossless"
         ]
     },
     "Level 5 - Cave System": {
@@ -83,8 +83,8 @@
             "Fun Facts": "- In the old version of the level, sticking to the right wall would lead you to the exit."
         },
         "images": [
-            "https://example.com",
-            "https://example.com"
+            "https://media.discordapp.net/attachments/1372528512526717051/1373015945873854524/Untitled_design_9.png?ex=682ada7e&is=682988fe&hm=e9b219bce47b0b10ab596efff83d38f9ada827e65a294c8d07f8f5f5334901a4&=&format=webp&quality=lossless",
+            "https://media.discordapp.net/attachments/1372528512526717051/1373015946137960519/Cave.png?ex=682ada7e&is=682988fe&hm=5e293a87082792f3db80aea12d4021c22f86f3acf0cff6bf597d5e7727bd3bd9&=&format=webp&quality=lossless"
         ]
     },
     "Level 6 - !!!!!!!!!!": {
@@ -108,8 +108,7 @@
             "Fun Facts": "- In a minor update, the level was nerfed and removed a big portion of the first set of vents.\n- The second update of the game was named after Level 7."
         },
         "images": [
-            "https://example.com",
-            "https://example.com"
+            "https://media.discordapp.net/attachments/1372528512526717051/1373015946406400000/bookroom.png?ex=682ada7f&is=682988ff&hm=3f185d1f49619340004aa38f358a0c729d441927b35c649e5a556f8e223dab97&=&format=webp&quality=lossless"
         ]
     },
     "Level 8 - Lights Out": {
@@ -159,8 +158,7 @@
             "Fun Facts": "- In a minor update, the parkour of both sections was severely nerfed due to players struggling to pass the level."
         },
         "images": [
-            "https://example.com",
-            "https://example.com"
+            "https://media.discordapp.net/attachments/1372528512526717051/1373015946666709042/Level11.png?ex=682ada7f&is=682988ff&hm=15df47eeef265f484ff75d5d2bd3bfde56507436444f82b901b18b19a2120748&=&format=webp&quality=lossless"
         ]
     },
     "Level 12 - Creative Minds": {
@@ -182,8 +180,8 @@
             "Tutorial": " In order to beat the level, you must avoid the Partygoer in the second half of the level. In the first section, activate all five stars to open the gate. In the second section, find all three plushes in the maze and find the exit."
         },
         "images": [
-            "https://example.com",
-            "https://example.com"
+            "https://media.discordapp.net/attachments/1372528512526717051/1373015946913906768/Untitled_design_11.png?ex=682ada7f&is=682988ff&hm=b889cb1f71088c4ad67935425319dac3558682b7055b8944e74a082486109fd2&=&format=webp&quality=lossless",
+            "https://media.discordapp.net/attachments/1372528512526717051/1373015947161374760/Untitled_design_10.png?ex=682ada7f&is=682988ff&hm=4db7e63585cc1f5fcaeb1524be28506a01a64702f148cc8f66ea782f2cc85328&=&format=webp&quality=lossless"
         ]
     },
     "Level 14 - Electrical Station": {
@@ -289,8 +287,10 @@
             "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the \u201c[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\u201d badge from any of the levels."
         },
         "images": [
-            "https://example.com",
-            "https://example.com"
+            "https://media.discordapp.net/attachments/1372528512526717051/1373016052816023622/GraveyardLevel.png?ex=682ada98&is=68298918&hm=45ae1b3aa71996bc93cc4c5812b290f98974dcdea2fe6bef9870a70a078cd148&=&format=webp&quality=lossless",
+            "https://media.discordapp.net/attachments/1372528512526717051/1373016053080395886/GraveyardLevel_1.png?ex=682ada98&is=68298918&hm=1098a5a15256f0a341698cd57f217334bbcf8ebd43ef24e814ff32f4946503c1&=&format=webp&quality=lossless",
+            "https://media.discordapp.net/attachments/1372528512526717051/1373016053478592614/GraveyardLevel_2.png?ex=682ada98&is=68298918&hm=13df6d090a305fc6ae7c711da35096319908011940705da04659db1e3b42c6ea&=&format=webp&quality=lossless",
+            "https://media.discordapp.net/attachments/1372528512526717051/1373016053738897538/GraveyardLevel_4.png?ex=682ada98&is=68298918&hm=d70e2dfa8c1363bfddcb486ac31b427bbd87f972a69f6d732d31a773e11e8c0f&=&format=webp&quality=lossless"
         ]
     },
     "Level 22 - Party Mall": {
@@ -316,8 +316,10 @@
             "Fun Facts": "- In order to patch a bug, the developers made all chapter 2 levels unlocked by default, thus making it possible to get the \u201c[PRE-ALPHA TESTER](<https://www.roblox.com/badges/2127476263/->)\u201d badge from any of the levels."
         },
         "images": [
-            "https://example.com",
-            "https://example.com"
+            "https://media.discordapp.net/attachments/1372528512526717051/1373016051628904590/Window.png?ex=682ada98&is=68298918&hm=d2714cc372ece16bb5c65a8ce0d99af97eecf52d6c4a48c5ecc2c37176c10c98&=&format=webp&quality=lossless",
+            "https://media.discordapp.net/attachments/1372528512526717051/1373016051914375168/Chase.png?ex=682ada98&is=68298918&hm=f823b6e9336f6506495d1073b51831c706f06a7e20fe37f63eca25355822e1ff&=&format=webp&quality=lossless",
+            "https://media.discordapp.net/attachments/1372528512526717051/1373016052258046023/ThePit_2.png?ex=682ada98&is=68298918&hm=a1d6f92c7e33331cce7185f974617efdb9349280a0126b762bd02a950ce86d46&=&format=webp&quality=lossless",
+            "https://media.discordapp.net/attachments/1372528512526717051/1373016052560040047/Vent.png?ex=682ada98&is=68298918&hm=417858b7705c4effdf602466ecbebad16f8128eb605d66997686680b2bbb8a77&=&format=webp&quality=lossless"
         ]
     },
     "Level 24 - Train Station": {
