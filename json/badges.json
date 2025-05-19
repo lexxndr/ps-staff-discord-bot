@@ -1,0 +1,134 @@
+{
+    "PRE-ALPHA TESTER": {
+        "sections": {
+            "Badge Type": "badge type",
+            "Description": "roblox desc",
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-049615ab47c38a93e6e546e4ef1e9cc5/150/150/Image/Webp/noFilter"
+        ]
+    },
+    "PRE-ALPHA ENDING": {
+        "sections": {
+            "Badge Type": "badge type",
+            "Description": "roblox desc",
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-8b1e7c3e1a74ab6e192b756741ac3901/150/150/Image/Webp/noFilter"
+        ]
+    },
+    "REALITY": {
+        "sections": {
+            "Badge Type": "badge type",
+            "Description": "roblox desc",
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-a4dd35e5337dc516f9eae91f68297076/150/150/Image/Webp/noFilter"
+        ]
+    },
+    "The Lost Soul": {
+        "sections": {
+            "Badge Type": "badge type",
+            "Description": "roblox desc",
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-3b8010dab18f4d1f6a1f540356bf27eb/150/150/Image/Webp/noFilter"
+        ]
+    },
+    "BEN": {
+        "sections": {
+            "Badge Type": "badge type",
+            "Description": "roblox desc",
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-66c0066343936cd284e6e7f70a094f35/150/150/Image/Webp/noFilter"
+        ]
+    },
+    "DOPPELGANGER": {
+        "sections": {
+            "Badge Type": "badge type",
+            "Description": "roblox desc",
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-4b1562abc547d6c4e8268e8497c88ce2/150/150/Image/Webp/noFilter"
+        ]
+    },
+    "Familiar Face": {
+        "sections": {
+            "Badge Type": "badge type",
+            "Description": "roblox desc",
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-75f533c6646ac9568925f4801c8d13e9/150/150/Image/Webp/noFilter"
+        ]
+    },
+    "Daymare": {
+        "sections": {
+            "Badge Type": "badge type",
+            "Description": "roblox desc",
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-fa2a21235d256a6b9977064980702f1d/150/150/Image/Webp/noFilter"
+        ]
+    },
+    "Gift Badges": { 
+        "sections": {
+            "Badge Type": "hi jay, this group is needed for the command to NOT reach the limit of 25 options. i dont see any point in all those badges to be different within the command. i'll maybe make a single image with all of the illustrations later to put it in the 'images' key",
+            "Description": "roblox desc",
+            "Tutorial": "tutorial",
+            "Fun Facts": "This group of badges includes:\n- Advanced Camera Gift\n- Advanced Flashlight Gift\n- Increased Lobby Gift\n- Metal Lungs Gift\n- Olympic Runner Gift\n- Sixth Sense Gift\n- Extra Lives Gift\n- Generous Gifter"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-712798f40e94e8946579912ddee16892/150/150/Image/Webp/noFilter"
+        ]
+    },
+    "Got you!": {
+        "sections": {
+            "Badge Type": "badge type",
+            "Description": "roblox desc",
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-9c9edfd1082aab2788ff3a790286b504/150/150/Image/Webp/noFilter"
+        ]
+    },
+    "Metallica": {
+        "sections": {
+            "Badge Type": "badge type",
+            "Description": "roblox desc",
+            "Tutorial": "please specify that its unobtainable",
+            "Fun Facts": "This group of badges includes:\n- King Nothing\n- Lux Æterna"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-263d7b7fe7045673facf9f0aab2f0523/150/150/Image/Webp/noFilter"
+        ]
+    },
+    "Atomic Expert": {
+        "sections": {
+            "Badge Type": "badge type",
+            "Description": "roblox desc",
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
+        },
+        "images": [
+            "https://tr.rbxcdn.com/180DAY-14fa9be93c2035f239f4b4884c9e8f0b/150/150/Image/Webp/noFilter"
+        ]
+    }
+}

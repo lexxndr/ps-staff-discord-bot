@@ -33,7 +33,7 @@ async def update_ts(bot: commands.InteractionBot):
             
             return filename, content
     
-        tasks = [updater(session, filename) for filename in ["faq.json", "new_level.json", "system_prompt.json"]]
+        tasks = [updater(session, filename) for filename in ["faq.json", "new_level.json", "system_prompt.json", "badges.json"]]
         responses = await asyncio.gather(*tasks)
         bot.jsones = {response[0]: response[1] for response in responses}
 
