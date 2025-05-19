@@ -29,7 +29,7 @@ to get the fucking github raw url, follow these damn steps:
 1. head into your fucking GitHub repository and open any file in the `/json` directory
 2. add `?raw=true` at the end of the url and go to the resulting link. it should look something like this:  
    `https://raw.githubusercontent.com/lexxndr/ps-staff-discord-bot/refs/heads/main/json/badges.json`
-3. now, remove everything after the last `/` in that fucking url. it should look like this: `GUTHIB=https://raw.githubusercontent.com/lexxndr/ps-staff-discord-bot/refs/heads/main/json/`
+3. now, remove everything after the last `/` in that fucking url, now it should look like this: `GUTHIB=https://raw.githubusercontent.com/lexxndr/ps-staff-discord-bot/refs/heads/main/json/`. if you try to go to this url in your browser, you will get `400: Invalid request` error, but don't worry, the code will be fine
 4. copy the link and paste it into your `.env` file.
 
 
