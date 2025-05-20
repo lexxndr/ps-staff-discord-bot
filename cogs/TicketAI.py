@@ -1,16 +1,18 @@
 import disnake
+import dotenv
 import g4f
 from g4f.client import AsyncClient
 from g4f.Provider import RetryProvider, PollinationsAI
 from disnake.ext import commands
 from rich import print
 
+env = dotenv.dotenv_values('.env')
 client = AsyncClient(provider=RetryProvider([PollinationsAI], shuffle=False)) # leave it as a retryprovider, we might need more backup providers in the future
 
 class TicketAI(commands.Cog):
     def __init__(self, bot: commands.InteractionBot):
         self.bot=bot
-        self.ticket_category = 1373608265056784495 # hardcoded for now, TODO !!! add messages from all categories in a list defined in .env
+        self.ticket_category = int(env["TICKET_CATEGORY"])
         self.conversations = {}
     
     async def trim_history(self, history, max_length=4096):

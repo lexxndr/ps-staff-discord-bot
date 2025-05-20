@@ -20,6 +20,7 @@ py -3 -m pip install -U -r requirements.txt
 TOKEN=your discord token
 GUTHIB=your [github raw url](#getting-github-raw-url)
 TEST_GUILDS=[your test guilds ids]
+TICKET_CATEGORY= your ticket category
 ```
 
 ### getting github raw url
