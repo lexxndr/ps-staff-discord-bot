@@ -58,7 +58,6 @@ class TicketAI(commands.Cog):
             message.content += " | User sent an image (invisible to you). Ask if it's relevant. If yes, redirect to a moderator; if not, continue assisting."
         messages = await self.add_message(message.channel.id, "user", message.content, message.author.name)
         messages = await self.trim_history(messages)
-        print(messages)
         try:
             response = await client.chat.completions.create(
                 model=g4f.models.default,
@@ -72,6 +71,7 @@ class TicketAI(commands.Cog):
             await message.reply(result, allowed_mentions=disnake.AllowedMentions(everyone=False,users=False,roles=False))
         except Exception as e:
             print(f'an error occured: {e}')
+        print(messages)
         
 
 

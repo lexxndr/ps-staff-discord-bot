@@ -22,6 +22,8 @@ GUTHIB=your [github raw url](#getting-github-raw-url)
 TEST_GUILDS=[your test guilds ids]
 TICKET_CATEGORY=your ticket category id
 QOTD_CHANNEL=your qotd channel id
+QOTD_ALLOWED_ROLE_IDS=[allowed role ids for qotd]
+QOTD_ALLOWED_USER_IDS=[allowed user ids for qotd]
 ```
 
 ### getting github raw url

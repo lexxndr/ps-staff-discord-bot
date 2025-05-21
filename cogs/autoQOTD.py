@@ -1,19 +1,18 @@
 import disnake
 import dotenv
+import json
+import ast
+from math import ceil
 from disnake.ui import View, Button
-from disnake import Embed, Interaction, ButtonStyle
+from disnake import Interaction, ButtonStyle
 from disnake.ext import commands, tasks
 from datetime import datetime
-import json
-import asyncio
-from math import ceil
 
-QOTD_FILE = "json/qotds.json"
 env = dotenv.dotenv_values('.env')
 
-# Only allow users with specific role or IDs to manage QOTDs
-ALLOWED_ROLE_IDS = [123456789012345678]  # Replace with actual role IDs
-ALLOWED_USER_IDS = [573893392308764711]  # Replace with actual user IDs
+QOTD_FILE = "json/qotds.json"
+ALLOWED_ROLE_IDS = ast.literal_eval(env["QOTD_ALLOWED_ROLE_IDS"])
+ALLOWED_USER_IDS = ast.literal_eval(env["QOTD_ALLOWED_USER_IDS"])
 
 
 class AutoQOTD(commands.Cog):
