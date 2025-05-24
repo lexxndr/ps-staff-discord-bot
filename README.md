@@ -1,52 +1,55 @@
-# fucking polaroid bot
+# Polaroid Bot
 
-## what the fuck is this?
-This is a fucking Polaroid Studios Discord bot that does some cool shit with levels and responses.
+## What is this?
+This is a Polaroid Studios Discord bot that provides features such as displaying in-game levels, entities, badges, frequently asked questions and automated responses.
 
-## installation
+## Installation
 **Python 3.10 or higher is required.**
 
-1. install the fucking requirements
+1. Install the requirements:
 ```sh
-# linux/macOS
+# Linux/macOS
 python3 -m pip install -U -r requirements.txt
 
-# wndows
+# Windows
 py -3 -m pip install -U -r requirements.txt
 ```
 
-2. get your fucking `.env` ready
+2. Prepare your `.env` file with the following variables:
 ```
 TOKEN=your discord token
-GUTHIB=your [github raw url](#getting-github-raw-url)
-TEST_GUILDS=[your test guilds ids]
-TICKET_CATEGORY=your ticket category id
-QOTD_CHANNEL=your qotd channel id
-QOTD_ALLOWED_ROLE_IDS=[allowed role ids for qotd]
-QOTD_ALLOWED_USER_IDS=[allowed user ids for qotd]
+GUTHIB=your GitHub raw URL
+TEST_GUILDS=[your test guild IDs]
+TICKET_CATEGORY=your ticket category ID
+QOTD_CHANNEL=your QOTD channel ID
+QOTD_ALLOWED_ROLE_IDS=[allowed role IDs for QOTD]
+QOTD_ALLOWED_USER_IDS=[allowed user IDs for QOTD]
 ```
 
-### getting github raw url
+### Getting GitHub raw URL
 
-to get the fucking github raw url, follow these damn steps:
+To get the GitHub raw URL, follow these steps:
 
-1. head into your fucking GitHub repository and open any file in the `/json` directory
-2. add `?raw=true` at the end of the url and go to the resulting link. it should look something like this:  
+1. Go to your GitHub repository and open any file in the `/json` directory.
+2. Add `?raw=true` at the end of the URL and navigate to the resulting link. It should look something like this:  
    `https://raw.githubusercontent.com/lexxndr/ps-staff-discord-bot/refs/heads/main/json/badges.json`
-3. now, remove everything after the last `/` in that fucking url, now it should look like this: `GUTHIB=https://raw.githubusercontent.com/lexxndr/ps-staff-discord-bot/refs/heads/main/json/`. if you try to go to this url in your browser, you will get `400: Invalid request` error, but don't worry, the code will be fine
-4. copy the link and paste it into your `.env` file.
+3. Remove everything after the last `/` in that URL, so it looks like this:  
+   `GUTHIB=https://raw.githubusercontent.com/lexxndr/ps-staff-discord-bot/refs/heads/main/json/`  
+   If you try to open this URL in your browser, you will get a `400: Invalid request` error, but this is expected and will not affect the bot.
+4. Copy the link and paste it into your `.env` file.
 
-
-## usage
-run the bot with:
+## Usage
+Run the bot with:
 ```sh
 python main.py
 ```
-make sure your `.env` file is in the right place and filled with the correct shit.
+Make sure your `.env` file is in the correct location and filled with the appropriate values.
 
-## support
-if this shit breaks, i dont care if you are not a polaroid staff. check your setup, your python version, and your environment variables.
+## Support
+If you encounter issues, please check your setup, Python version, and environment variables.
 
-## credits
-most of this code was written by 303 and me
-
+## Credits
+Most of this code was written by 303 and me.
+havaka - python police, helped a lot with coding
+jaymetrics - filled in most of .json files with Apeirophobia information
+ted - helped with the code and testing

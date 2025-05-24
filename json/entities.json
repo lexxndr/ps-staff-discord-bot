@@ -1,21 +1,21 @@
 {
-    "PRE-ALPHA TESTER": {
+    "entity1": {
         "sections": {
             "Badge Type": "Automatic",
             "Description": "Earn this badge by playing the game during pre-alpha.",
-            "Tutorial": "Start the game.",
-            "Fun Facts": "- Prior to Chapter 2, you could only receive this badge from loading into level 0, but the bug-fix for Chapter 2 allowed players to get the badge from level 0 and any of the Chapter 2 levels."
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
         },
         "images": [
             "https://tr.rbxcdn.com/180DAY-17264d045a9daa9c464ee64bf14dc4f1/150/150/Image/Webp/noFilter"
         ]
     },
-    "PRE-ALPHA ENDING": {
+    "entity2": {
         "sections": {
             "Badge Type": "Game Progression",
             "Description": "Earn this badge by finishing the game at the last level in pre-alpha test before version 1.0.",
-            "Tutorial": "Unobtainable",
-            "Fun Facts": "- This badge gives you the “Chrono” title."
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
         },
         "images": [
             "https://tr.rbxcdn.com/180DAY-3bdbf69425876e6ba6306110dd0a6f93/150/150/Image/Webp/noFilter"
@@ -25,18 +25,19 @@
         "sections": {
             "Badge Type": "Collectables",
             "Description": "You can obtain this badge by collecting all the 'Simulation Cores' in the game.",
-            "Tutorial": "Find all of the simulation cores in Chapter 1. There are eight total cores.",
-            "Fun Facts": "- There used to be a reality core on level two."
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
         },
         "images": [
-            "https://tr.rbxcdn.com/180DAY-bbfb34781e2a0980beaf1d8d69a445b9/150/150/Image/Webp/noFilter"
+            "https://tr.rbxcdn.com/180DAY-a4dd35e5337dc516f9eae91f68297076/150/150/Image/Webp/noFilter"
         ]
     },
     "The Lost Soul": {
         "sections": {
-            "Badge Type": "Exploration",
+            "Badge Type": "Collectables",
             "Description": "Earn this badge by locating the lost soul.",
-            "Tutorial": "The lost soul is located in level zero."
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
         },
         "images": [
             "https://tr.rbxcdn.com/180DAY-dbc2417f794dbf4b233a6b66c1ab3a98/150/150/Image/Webp/noFilter"
@@ -44,10 +45,10 @@
     },
     "BEN": {
         "sections": {
-            "Badge Type": "Exploration",
+            "Badge Type": "Secrets",
             "Description": "LOCATE BEN'S CHAIR",
-            "Tutorial": "Ben’s chair is located in level zero.",
-            "Fun Facts": "- Standing on Ben’s chair can make you immortal to the entities."
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
         },
         "images": [
             "https://tr.rbxcdn.com/180DAY-3e4f6831df9a6e1a9e7dbcf76338d3af/150/150/Image/Webp/noFilter"
@@ -55,9 +56,10 @@
     },
     "DOPPELGANGER": {
         "sections": {
-            "Badge Type": "Game Progression",
+            "Badge Type": "Secrets",
             "Description": "Get killed by your own clone.",
-            "Tutorial": "Die to the skinwalker in level five."
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
         },
         "images": [
             "https://tr.rbxcdn.com/180DAY-b775440773a1f0303b15108c0ba4ff9d/150/150/Image/Webp/noFilter"
@@ -65,10 +67,10 @@
     },
     "Familiar Face": {
         "sections": {
-            "Badge Type": "Collectables",
+            "Badge Type": "Secrets / Unobtainable",
             "Description": "Meet one of the developers in your game.",
-            "Tutorial": "Have one of the developers give you the title in-game",
-            "Fun Facts": "- You do not get the badge just for joining a developer. Don’t stalk the devs!"
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
         },
         "images": [
             "https://tr.rbxcdn.com/180DAY-1078c86e9623f0b393b9cb311e4ce2ea/150/150/Image/Webp/noFilter"
@@ -78,18 +80,18 @@
         "sections": {
             "Badge Type": "Game Progression",
             "Description": "Earn this badge by completing the game on nightmare mode.",
-            "Tutorial": "Complete 0-15 on nightmare mode.",
-            "Fun Facts": "- Although the badge is supposed to be obtained when completing level 16, it used to be obtainable when completing level 15."
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
         },
         "images": [
             "https://tr.rbxcdn.com/180DAY-ac762c26782d6d813833a5ef486ee86c/150/150/Image/Webp/noFilter"
         ]
     },
-    "Gift Badges": {
+    "Gift Badges": { 
         "sections": {
             "Badge Type": "Other",
             "Description": "- Get a Gift! (gifts)\n- Earn this badge by gifting a player a gamepass (Generous Gifter)",
-            "Tutorial": "Have robux or friends.",
+            "Tutorial": "tutorial",
             "Fun Facts": "This group of badges includes:\n- Advanced Camera Gift\n- Advanced Flashlight Gift\n- Increased Lobby Gift\n- Metal Lungs Gift\n- Olympic Runner Gift\n- Sixth Sense Gift\n- Extra Lives Gift\n- Generous Gifter"
         },
         "images": [
@@ -98,9 +100,9 @@
     },
     "Got you!": {
         "sections": {
-            "Badge Type": "Exploration",
+            "Badge Type": "Secrets",
             "Description": "Super secret badge",
-            "Tutorial": "cant say, its secret",
+            "Tutorial": "tutorial",
             "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
         },
         "images": [
@@ -109,9 +111,9 @@
     },
     "Metallica": {
         "sections": {
-            "Badge Type": "Event",
+            "Badge Type": "Secrets",
             "Description": "- Where's your crown king nothing (King Nothing)\n- Earn this badge by finding the hidden room (Lux Æterna)",
-            "Tutorial": "Unobtainable",
+            "Tutorial": "please specify that its unobtainable",
             "Fun Facts": "This group of badges includes:\n- King Nothing\n- Lux Æterna"
         },
         "images": [
@@ -120,10 +122,10 @@
     },
     "Atomic Expert": {
         "sections": {
-            "Badge Type": "Exploration",
+            "Badge Type": "Game Progression",
             "Description": "Defuse the bomb",
-            "Tutorial": "locate the bomb in the mall and defuse it.",
-            "Fun Facts": "- Defusing the bomb is a 1/120 chance."
+            "Tutorial": "tutorial",
+            "Fun Facts": "- trivia1.\n- trivia2\n- trivia3"
         },
         "images": [
             "https://tr.rbxcdn.com/180DAY-a85d3334db45146d612c49214b20a60c/150/150/Image/Webp/noFilter"
