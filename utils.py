@@ -27,6 +27,6 @@ async def update_jsones(bot: commands.InteractionBot):
             
             return filename, content
     
-        tasks = [updater(session, filename) for filename in ["faq.json", "new_level.json", "system_prompt.json", "badges.json", "qotds.json"]]
+        tasks = [updater(session, filename) for filename in ["faq.json", "new_level.json", "system_prompt.json", "badges.json", "qotds.json", "entities.json"]]
         responses = await asyncio.gather(*tasks)
         bot.jsones = {response[0]: response[1] for response in responses}
