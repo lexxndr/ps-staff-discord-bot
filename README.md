@@ -18,7 +18,7 @@ py -3 -m pip install -U -r requirements.txt
 2. Prepare your `.env` file with the following variables:
 ```
 TOKEN=your discord token
-GUTHIB=your [GitHub raw URL](#getting-github-raw-url)
+GUTHIB=your GitHub raw URL
 TEST_GUILDS=[your test guild IDs]
 TICKET_CATEGORY=your ticket category ID
 QOTD_CHANNEL=your QOTD channel ID
