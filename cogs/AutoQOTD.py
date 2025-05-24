@@ -175,7 +175,7 @@ class AutoQOTD(commands.Cog):
             return
 
         try:
-            message = await channel.send(f"📢 **Question of the Day:**\n> {question}")
+            message = await channel.send(f"📢 **Question of the Day:**\n> {question}\n||<@1317715346588831785>||")
             await message.create_thread(name=f"QOTD - {datetime.utcnow().strftime('%b %d')}")
             print(f"[QOTD] Posted: {question}")
         except Exception as e:
