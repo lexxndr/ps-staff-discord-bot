@@ -1,4 +1,4 @@
-import disnake, aiohttp, asyncio, json
+import disnake, aiohttp, asyncio, json, disnake.ui as ui
 from disnake.ext import commands
 from collections import deque
 from datetime import datetime, timedelta
@@ -89,51 +89,75 @@ class Speedrun(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.game_data = {}
-        self.emoji_list = {1: "<:1st:1376607630226624733>", 2: "<:2nd:1376607670491938856>", 3: "<:3rd:1376607686594002994>"} # implement app emojis someday // https://github.com/Snipy7374/disnake/tree/feat/app_emojis
+        #self.emoji_list = {1: "<:1st:1376607630226624733>", 2: "<:2nd:1376607670491938856>", 3: "<:3rd:1376607686594002994>"} # {1: "<:1st:1376607630226624733>", 2: "<:2nd:1376607670491938856>", 3: "<:3rd:1376607686594002994>"} # implement app emojis someday // https://github.com/Snipy7374/disnake/tree/feat/app_emojis
         self.request = Request() 
     
     @commands.Cog.listener()
     async def on_ready(self):
         await self.request.__aenter__()
-        data = await self.request.request(f"games/{GAME_ID}?embed=category,categories,levels,players")
+        data = await self.request.request(f"games/{GAME_ID}?embed=category,categories,levels")
         self.game_data = data
-        print("[Speedrun] Done loading game data")
+        print(":information_source:   [white]speedrun.com data[/white] loaded.")
 
     def cog_unload(self):
         asyncio.create_task(self.request.__aexit__(None, None, None))
 
-    @commands.slash_command(name="sb_leaderboard", description="apepaphobya speedruh leaderboard")
+    @commands.slash_command(name="speedrun")
+    async def speedrun_group(self, inter: disnake.ApplicationCommandInteraction): pass
+
+    @speedrun_group.sub_command(name="leaderboard", description="Apeirophobia's Speedrun leaderboard")
     async def leaderboard_command(self, inter: disnake.ApplicationCommandInteraction, category, variable):
         if not variable: variable = "02q73nyd" if category == "fullgame" else "q255mxg2"
+        await inter.response.defer()
 
-        response = await self.request.request(f"categories/{variable}/records?max=100&embed=category,players") # self.request.request(f"runs?category={variable}&max=1&embed=category,players")
+        response = await self.request.request(f"categories/{variable}/records?embed=category,players") # self.request.request(f"runs?category={variable}&max=1&embed=category,players")
         #print(response)
-        runs = response.get("data", {})[0].get("runs", [])
-        users = {user.get("id"): user for user in response.get("data", {})[0].get("players", {}).get("data")}
+        response_data = response.get("data", {})[0]
+        category_data = response_data.get("category", {}).get("data", {})
+        runs_data = response_data.get("runs", [])
+        players_data = response_data.get("players", {})
+        users_data = {user.get("id"): user for user in players_data.get("data")}
         #print(users)
+
+        nl = "\n"
 
         lines = []
 
-        for run in runs:
+        for run in runs_data:
             place = run.get("place")
             data = run.get("run", {})
 
             link = data.get("weblink")
             date = round(datetime.fromisoformat(data.get("submitted")).timestamp())
             time = data.get("times", {}).get("primary")
-            players = [users.get(player.get("id")) for player in data.get("players", [])]
+            players = [users_data.get(player.get("id")) for player in data.get("players", [])]
             #print(players)
 
-            for k, v in [("PT", ""), ("S", ""), ("M", ":"), ("H", ":"), ("D", ":")]:
-                time = time.replace(k, v)
+            for k, v in [("PT", ""), ("S", ""), ("M", ":"), ("H", ":"), ("D", ":")]: time = time.replace(k, v)
             content = f"""
-{self.emoji_list[place] if place <= 3 else place} {time} {"; ".join([f'''{":flag_"+player.get("location", {}).get("country", {}).get("code")+":" if player.get("location") else "🌐"} {"~~" if player.get("role") == "banned" else ""}[{player.get("names", {}).get("international")}](<{player.get("weblink")}>){"~~" if player.get("role") == "banned" else ""}''' for player in players])}
-[Link 🔗](<{link}>)
-Achieved <t:{date}:R>
+{self.bot.app_emojis[f"{place}_"] if place <= 3 else place} — {time} — {"; ".join([f'''{":flag_"+player.get("location", {}).get("country", {}).get("code").split("/")[0].lower()+":" if player.get("location") else "🌐"} {"~~" if player.get("role") == "banned" else ""}[{player.get("names", {}).get("international")}](<{player.get("weblink")}>){"~~" if player.get("role") == "banned" else ""}''' for player in players])}
+[Link 🔗](<{link}>) • Achieved <t:{date}:R>
 """
             lines.append(content)
 
-        await inter.response.send_message("\n".join(lines))
+        container = ui.Container(
+            ui.MediaGallery(
+                disnake.MediaGalleryItem({"media": {"url": self.game_data.get("data", {}).get("assets", {}).get("logo", {}).get("uri")}}),
+            ),
+            ui.TextDisplay("\n".join([f"""# [{category_data.get("name")}](<{category_data.get("weblink")}>)""", "## Rules: ", f"""{nl}> {f"{nl}> ".join(category_data.get("rules", None).split(nl))}""", "## Records: "])),
+            ui.Separator(spacing=disnake.SeparatorSpacingSize.large),
+            *[
+                item
+                for line in lines
+                for item in (
+                    ui.TextDisplay(line),
+                    ui.Separator(spacing=disnake.SeparatorSpacingSize.large), 
+                )
+            ],
+            accent_colour=disnake.Colour(0xf0b000),
+            spoiler=False
+        )
+        await inter.edit_original_response(components=container, flags=disnake.MessageFlags(is_components_v2=True))
 
     @leaderboard_command.autocomplete("category")
     async def category_autocomplete(self, inter: disnake.ApplicationCommandInteraction, user_input: str):
