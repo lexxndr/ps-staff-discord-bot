@@ -1,7 +1,7 @@
 import disnake, dotenv, json
 from disnake.ext import commands, tasks
 from rich import print
-from utils import update_jsones
+from utils import *
 
 env = dotenv.dotenv_values('.env')
 
@@ -19,7 +19,10 @@ async def json_updater():
 async def on_ready():
     print(f'[bold white on black]bot is ready![/bold white on black]')
     print(f':fish:  gurt : {bot.user.id}')
-    return await update_jsones(bot)
+
+    tasks = [update_jsones(bot), get_app_emojis(bot)]
+    
+    return await asyncio.gather(*tasks)
 
 bot.load_extensions('cogs')
 bot.run(env.get('TOKEN'))
